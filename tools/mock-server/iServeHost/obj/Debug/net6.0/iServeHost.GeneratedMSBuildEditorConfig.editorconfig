@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = iServeHost
-build_property.ProjectDir = /Users/davidt2/test-menu/tools/mock-server/iServeHost/
+build_property.ProjectDir = C:\Users\LiamK2\Documents\Repos\DTaylorExample\tools\mock-server\iServeHost\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

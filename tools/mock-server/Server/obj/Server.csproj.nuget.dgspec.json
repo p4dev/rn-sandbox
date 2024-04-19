@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/davidt2/test-menu/tools/mock-server/Server/Server.csproj": {}
+    "C:\\Users\\LiamK2\\Documents\\Repos\\DTaylorExample\\tools\\mock-server\\Server\\Server.csproj": {}
   },
   "projects": {
-    "/Users/davidt2/test-menu/tools/mock-server/Server/Server.csproj": {
+    "C:\\Users\\LiamK2\\Documents\\Repos\\DTaylorExample\\tools\\mock-server\\Server\\Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/davidt2/test-menu/tools/mock-server/Server/Server.csproj",
+        "projectUniqueName": "C:\\Users\\LiamK2\\Documents\\Repos\\DTaylorExample\\tools\\mock-server\\Server\\Server.csproj",
         "projectName": "Server",
-        "projectPath": "/Users/davidt2/test-menu/tools/mock-server/Server/Server.csproj",
-        "packagesPath": "/Users/davidt2/.nuget/packages/",
-        "outputPath": "/Users/davidt2/test-menu/tools/mock-server/Server/obj/",
+        "projectPath": "C:\\Users\\LiamK2\\Documents\\Repos\\DTaylorExample\\tools\\mock-server\\Server\\Server.csproj",
+        "packagesPath": "C:\\Users\\LiamK2\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LiamK2\\Documents\\Repos\\DTaylorExample\\tools\\mock-server\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/davidt2/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\LiamK2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -32,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -58,6 +65,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.18, 7.0.18]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[7.0.18, 7.0.18]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.18, 7.0.18]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.18, 7.0.18]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -66,7 +91,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.402/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }
