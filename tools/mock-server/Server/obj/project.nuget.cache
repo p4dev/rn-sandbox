@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "T+ZycXbRh5VHZO33VT5mfQgNYBlzU8Aue0FP8EcsaYntufc4Z0Ij0in74unfEHWe8/RZFjBmXrDvKvbG9KbkjQ==",
+  "success": true,
+  "projectFilePath": "/Users/davidt2/Desktop/iServe/tools/mock-server/Server/Server.csproj",
+  "expectedPackageFiles": [
+    "/Users/davidt2/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
+    "/Users/davidt2/.nuget/packages/portable.bouncycastle/1.9.0/portable.bouncycastle.1.9.0.nupkg.sha512"
+  ],
+  "logs": []
+}

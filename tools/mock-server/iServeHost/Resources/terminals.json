@@ -1,0 +1,35 @@
+﻿[
+  {
+    "Device": "640c1d01c5c5ea7c|Galaxy Tab A7 Lite|12_null|iServe_1.25.0",
+    "LastAccess": "2022-11-02T15:04:21.051522Z",
+    "User": 300046000002,
+    "SalesArea": "BAR",
+    "SalesAreaId": 272,
+    "Id": 606,
+    "Name": "MOAOrderPad 606"
+  },
+  {
+    "Device": "99ee4e19a78d2932|Lenovo Tab P11 Plus|11_null|iServe_1.25.0",
+    "LastAccess": "2022-11-01T13:14:35.9857165Z",
+    "User": 300046000002,
+    "SalesArea": "BAR",
+    "SalesAreaId": 272,
+    "Id": 623,
+    "Name": "MOAOrderPad 623"
+  },
+  {
+    "Device": "9a9cfecec6a67666|Elo-BTD|10_null|iServe_1.25.0",
+    "LastAccess": "2022-11-02T09:45:54.4793338Z",
+    "User": 300046000001,
+    "SalesArea": "BAR",
+    "SalesAreaId": 272,
+    "Id": 624,
+    "Name": "MOAOrderPad 624"
+  },
+  {
+    "SalesArea": "BAR",
+    "SalesAreaId": 272,
+    "Id": 634,
+    "Name": "MOAOrderPad 634"
+  }
+]

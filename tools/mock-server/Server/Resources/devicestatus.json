@@ -1,0 +1,164 @@
+﻿{
+  "Devices": [
+    {
+      "Device": "208dba113ce7c9aa|Lenovo Tab P11 Plus|11_null|iServe_1.25.0",
+      "LastAccess": "2022-11-01T12:56:50.2633786Z",
+      "User": 300046000002,
+      "SalesArea": "RESTAURANT",
+      "SalesAreaId": 273,
+      "Id": 607,
+      "Name": "MOAOrderPad 607"
+    },
+    {
+      "Device": "BA853E22-B260-48F2-BD88-sdk_gphone64_x86_64|sdk_gphone64_x86_64|12_null|iServe_1.25.0",
+      "LastAccess": "2022-11-02T14:01:13.6176569Z",
+      "User": 300046000002,
+      "SalesArea": "RESTAURANT",
+      "SalesAreaId": 273,
+      "Id": 608,
+      "Name": "MOAOrderPad 608"
+    },
+    {
+      "Device": "BA853E22-B260-48F2-BD88-iPhone 14 Pro|iPhone 14 Pro|16.0_iPhone15,2|iServe_1.25.0",
+      "LastAccess": "2022-11-01T17:30:16.8191311Z",
+      "User": 300046000002,
+      "SalesArea": "BAR",
+      "SalesAreaId": 272,
+      "Id": 609,
+      "Name": "MOAOrderPad 609"
+    },
+    {
+      "Device": "99ee4e19a78d2932|Lenovo Tab P11 Plus|11_null|iServe_1.25.0",
+      "LastAccess": "2022-11-01T13:14:35.9857165Z",
+      "User": 300046000002,
+      "SalesArea": "BAR",
+      "SalesAreaId": 272,
+      "Id": 623,
+      "Name": "MOAOrderPad 623"
+    },
+    {
+      "Device": "9a9cfecec6a67666|Elo-BTD|10_null|iServe_1.25.0",
+      "LastAccess": "2022-11-02T09:45:54.4793338Z",
+      "User": 300046000001,
+      "SalesArea": "BAR",
+      "SalesAreaId": 272,
+      "Id": 624,
+      "Name": "MOAOrderPad 624"
+    },
+    {
+      "Device": "",
+      "LastAccess": "",
+      "SalesArea": "RESTAURANT",
+      "SalesAreaId": 273,
+      "Id": 625,
+      "Name": "MOAOrderPad 625"
+    },
+    {
+      "Device": "",
+      "LastAccess": "",
+      "SalesArea": "RESTAURANT",
+      "SalesAreaId": 273,
+      "Id": 626,
+      "Name": "MOAOrderPad 626"
+    },
+    {
+      "Device": "",
+      "LastAccess": "",
+      "SalesArea": "RESTAURANT",
+      "SalesAreaId": 273,
+      "Id": 634,
+      "Name": "MOAOrderPad 634"
+    },
+    {
+      "Device": "",
+      "LastAccess": "",
+      "SalesArea": "RESTAURANT",
+      "SalesAreaId": 273,
+      "Id": 635,
+      "Name": "MOAOrderPad 635"
+    }
+  ],
+  "Errors": [],
+  "OutOfStock": [
+    10000000000,
+    10000000693
+  ],
+  "LimitedStock": [
+    {
+      "IngredientId": 10000000122,
+      "QuantityRemaining": 10
+    },
+    {
+      "IngredientId": 10000000001,
+      "QuantityRemaining": 40
+    },
+    {
+      "IngredientId": 10000000008,
+      "QuantityRemaining": 20
+    },
+    {
+      "IngredientId": 10000000023,
+      "QuantityRemaining": 30
+    },
+    {
+      "IngredientId": 10000000781,
+      "QuantityRemaining": 10
+    },
+    {
+      "IngredientId": 10000000692,
+      "QuantityRemaining": 3
+    },
+    {
+      "IngredientId": 10000000320,
+      "QuantityRemaining": 20
+    },
+    {
+      "IngredientId": 10000000156,
+      "QuantityRemaining": 12
+    }
+  ],
+  "Messages": [
+    {
+      "Id": "90056a88-e3d7-4773-8395-557353c0e135",
+      "Sent": "2022-11-02T13:14:24.998Z",
+      "Expires": "2022-11-02T19:14:24.998Z",
+      "RecipientType": "server",
+      "Originator": "atms",
+      "Type": "statusNotChanged",
+      "SubType": "10046835",
+      "Subject": "Table 1",
+      "Body": "test bill paid",
+      "Data": {
+        "Status": "paid",
+        "LastStatusChangeTime": "2022-11-02T13:14:21Z",
+        "GuestId": "10529092",
+        "Name": "Taylor",
+        "AccountId": "10713641301089425",
+        "Table": [
+          "1"
+        ]
+      }
+    },
+    {
+      "Id": "a6c439ee-2bfd-4fea-b1aa-a44e6ace1b71",
+      "Sent": "2022-11-02T15:04:07.52Z",
+      "Expires": "2022-11-02T21:04:07.52Z",
+      "RecipientType": "server",
+      "Originator": "atms",
+      "Type": "statusNotChanged",
+      "SubType": "10046835",
+      "Subject": "Table 1",
+      "Body": "test bill paid",
+      "Data": {
+        "Status": "paid",
+        "LastStatusChangeTime": "2022-11-02T15:04:06Z",
+        "GuestId": "10529146",
+        "Name": "Taylor",
+        "AccountId": "10713641301089427",
+        "Table": [
+          "1"
+        ]
+      }
+    }
+  ]
+}
