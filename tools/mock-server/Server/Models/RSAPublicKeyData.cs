@@ -3,6 +3,6 @@ namespace Server.Models
 {
   public class RSAPublicKeyData
   {
-    public string N { get; set; }
+    public string? N { get; set; }
   }
 }

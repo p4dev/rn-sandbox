@@ -1,0 +1,3327 @@
+{
+  "SiteId": 31,
+  "Site": "UAT 8896 UK VAT 2",
+  "SalesAreaId": 273,
+  "SalesArea": "Restaurant",
+  "LastModified": "_LAST_MODIFIED_",
+  "ThemeRevision": "364",
+  "Conversational": true,
+  "AutoAdvance": true,
+  "Locale": "en-GB",
+  "BookingConfig": {
+    "DateRequired": true,
+    "TimeRequired": true,
+    "CoverCountRequired": true,
+    "ContactNumberRequired": true
+  },
+  "LocalCardValidationConfig": {
+    "EftRuleId": 13
+  },
+  "TableDetailsConfig": {
+    "UseCoverCount": true
+  },
+  "DelayedOrderingConfig": {
+    "UsePickUpTimeForSalesAndPromotions": false,
+    "ExtraCustomerDetails": [
+      {
+        "Prompt": "Notes",
+        "Title": "Please enter any special order notes if applicable",
+        "EntryType": "AlphaNumericPlusPunctuation",
+        "MinLength": 1,
+        "MaxLength": 35
+      },
+      {
+        "Prompt": "Telephone No:",
+        "Title": "Please take the customers telephone number",
+        "EntryType": "Numeric",
+        "MinLength": 1,
+        "MaxLength": 27
+      }
+    ]
+  },
+  "UnattendedModeConfig": {
+    "CorrectionMethodRegular": 11,
+    "CorrectionMethodClearAll": 11,
+    "Enabled": true,
+    "PrintJobRetryPeriod": 30
+  },
+  "PaymentMethods": [
+    {
+      "Id": 1,
+      "Name": "Cash",
+      "OverPaymentType": "Change",
+      "CurrencyId": 1,
+      "CanBeUsed": true,
+      "CashDrawerMustBeOpened": true,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 2,
+      "Name": "£5",
+      "OverPaymentType": "Change",
+      "CurrencyId": 1,
+      "Amount": 5.0,
+      "CashDrawerMustBeOpened": true,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 3,
+      "Name": "£10",
+      "OverPaymentType": "Change",
+      "CurrencyId": 1,
+      "Amount": 10.0,
+      "CashDrawerMustBeOpened": true,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 4,
+      "Name": "£20",
+      "OverPaymentType": "Change",
+      "CurrencyId": 1,
+      "Amount": 20.0,
+      "CashDrawerMustBeOpened": true,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 5,
+      "Name": "Credit Card",
+      "OverPaymentType": "Tip",
+      "CurrencyId": 1,
+      "CanBeUsed": true,
+      "CashDrawerMustBeOpened": true,
+      "EftRuleId": 22
+    },
+    {
+      "Id": 6,
+      "Name": "Cheque",
+      "OverPaymentType": "Change",
+      "CurrencyId": 1,
+      "CashDrawerMustBeOpened": true,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 7,
+      "Name": "Voucher",
+      "OverPaymentType": "Forfeit",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 8,
+      "Name": "Increase Deposit",
+      "OverPaymentType": "Disallowed",
+      "CurrencyId": 1,
+      "EftRuleId": 16
+    },
+    {
+      "Id": 9,
+      "Name": "Deposit Take",
+      "OverPaymentType": "Disallowed",
+      "CurrencyId": 1,
+      "EftRuleId": 16
+    },
+    {
+      "Id": 10,
+      "Name": "Deposit Redeem",
+      "OverPaymentType": "Disallowed",
+      "CurrencyId": 1,
+      "EftRuleId": 16
+    },
+    {
+      "Id": 11,
+      "Name": "Charge Account",
+      "OverPaymentType": "Disallowed",
+      "CurrencyId": 1,
+      "EftRuleId": 15
+    },
+    {
+      "Id": 12,
+      "Name": "Settle Ledger",
+      "OverPaymentType": "Disallowed",
+      "CurrencyId": 1,
+      "EftRuleId": 15
+    },
+    {
+      "Id": 13,
+      "Name": "Room",
+      "OverPaymentType": "Disallowed",
+      "CurrencyId": 1,
+      "EftRuleId": 14
+    },
+    {
+      "Id": 14,
+      "Name": "iServe Pay",
+      "OverPaymentType": "Change",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 15,
+      "Name": "Seamless",
+      "OverPaymentType": "Change",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 16,
+      "Name": "Deliver- oo",
+      "OverPaymentType": "Disallowed",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 17,
+      "Name": "Reys Voucher",
+      "OverPaymentType": "Disallowed",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 18,
+      "Name": "PP Adjust",
+      "OverPaymentType": "Change",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 19,
+      "Name": "CC Online",
+      "OverPaymentType": "Tip",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 20,
+      "Name": "PayPal Online",
+      "OverPaymentType": "Tip",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 21,
+      "Name": "Manual Credit Card",
+      "OverPaymentType": "Tip",
+      "CurrencyId": 1,
+      "CashDrawerMustBeOpened": true,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 22,
+      "Name": "CC Adjust",
+      "OverPaymentType": "Change",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 23,
+      "Name": "CNP",
+      "OverPaymentType": "Disallowed",
+      "CurrencyId": 1,
+      "EftRuleId": 71
+    },
+    {
+      "Id": 24,
+      "Name": "OV Tesco Voucher",
+      "OverPaymentType": "Forfeit",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 25,
+      "Name": "Tesco Voucher",
+      "OverPaymentType": "Forfeit",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 26,
+      "Name": "Overide Nectar Voucher",
+      "OverPaymentType": "Forfeit",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 27,
+      "Name": "Nectar Voucher",
+      "OverPaymentType": "Forfeit",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 28,
+      "Name": "£2.50 Nectar",
+      "OverPaymentType": "Forfeit",
+      "CurrencyId": 1,
+      "Amount": 2.5,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 29,
+      "Name": "£10 Nectar",
+      "OverPaymentType": "Forfeit",
+      "CurrencyId": 1,
+      "Amount": 10.0,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 30,
+      "Name": "£20 Nectar",
+      "OverPaymentType": "Forfeit",
+      "CurrencyId": 1,
+      "Amount": 20.0,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 31,
+      "Name": "OV £2.50 Nectar",
+      "OverPaymentType": "Forfeit",
+      "CurrencyId": 1,
+      "Amount": 2.5,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 32,
+      "Name": "OV £10 Nectar",
+      "OverPaymentType": "Forfeit",
+      "CurrencyId": 1,
+      "Amount": 10.0,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 33,
+      "Name": "OV £20 Nectar",
+      "OverPaymentType": "Forfeit",
+      "CurrencyId": 1,
+      "Amount": 20.0,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 34,
+      "Name": "OV £10T- escos",
+      "OverPaymentType": "Forfeit",
+      "CurrencyId": 1,
+      "Amount": 10.0,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 35,
+      "Name": "OV £20 Tescos",
+      "OverPaymentType": "Forfeit",
+      "CurrencyId": 1,
+      "Amount": 20.0,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 36,
+      "Name": "£10 Tesco",
+      "OverPaymentType": "Forfeit",
+      "CurrencyId": 1,
+      "Amount": 10.0,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 37,
+      "Name": "£20 Tescos",
+      "OverPaymentType": "Forfeit",
+      "CurrencyId": 1,
+      "Amount": 20.0,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 38,
+      "Name": "Intouch Depo",
+      "OverPaymentType": "Disallowed",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 39,
+      "Name": "Account Pay",
+      "OverPaymentType": "Disallowed",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 40,
+      "Name": "Leisure",
+      "OverPaymentType": "Forfeit",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 41,
+      "Name": "Contis",
+      "OverPaymentType": "Change",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 42,
+      "Name": "EGift mVoucher",
+      "OverPaymentType": "Tip",
+      "CurrencyId": 1,
+      "CanBeUsed": true,
+      "CashDrawerMustBeOpened": true,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 44,
+      "Name": "Account",
+      "OverPaymentType": "Disallowed",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 45,
+      "Name": "Bonus Bonds",
+      "OverPaymentType": "Forfeit",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 46,
+      "Name": "£10 Bonus Bonds",
+      "OverPaymentType": "Forfeit",
+      "CurrencyId": 1,
+      "Amount": 10.0,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 47,
+      "Name": "£20 Bonus Bonds",
+      "OverPaymentType": "Forfeit",
+      "CurrencyId": 1,
+      "Amount": 20.0,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 48,
+      "Name": "Rest Choice Voucher",
+      "OverPaymentType": "Forfeit",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 49,
+      "Name": "Love2Sh- op",
+      "OverPaymentType": "Forfeit",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 50,
+      "Name": "Redeem Gift Card",
+      "OverPaymentType": "Tip",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 51,
+      "Name": "PE Paper Voucher",
+      "OverPaymentType": "Disallowed",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 52,
+      "Name": "Intouch Deposit",
+      "OverPaymentType": "Disallowed",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 53,
+      "Name": "Luncheon Vou",
+      "OverPaymentType": "Forfeit",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 54,
+      "Name": "Complim- ents",
+      "OverPaymentType": "Forfeit",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 56,
+      "Name": "£1 Bonus Bond",
+      "OverPaymentType": "Forfeit",
+      "CurrencyId": 1,
+      "Amount": 1.0,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 57,
+      "Name": "£5 Bonus Bond",
+      "OverPaymentType": "Forfeit",
+      "CurrencyId": 1,
+      "Amount": 5.0,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 58,
+      "Name": "£1 Comp- liment",
+      "OverPaymentType": "Forfeit",
+      "CurrencyId": 1,
+      "Amount": 1.0,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 59,
+      "Name": "£5 Comp- liment",
+      "OverPaymentType": "Forfeit",
+      "CurrencyId": 1,
+      "Amount": 5.0,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 60,
+      "Name": "£10 Comp -liment",
+      "OverPaymentType": "Forfeit",
+      "CurrencyId": 1,
+      "Amount": 10.0,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 61,
+      "Name": "Just Eat",
+      "OverPaymentType": "Disallowed",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 62,
+      "Name": "Hungry House",
+      "OverPaymentType": "Change",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 63,
+      "Name": "Credit Account",
+      "OverPaymentType": "Change",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 64,
+      "Name": "Nayax",
+      "OverPaymentType": "Change",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 65,
+      "Name": "One4All Vouchers",
+      "OverPaymentType": "Disallowed",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 66,
+      "Name": "Paid Online",
+      "OverPaymentType": "Change",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 67,
+      "Name": "Mobile Payment",
+      "OverPaymentType": "Tip",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 68,
+      "Name": "Say Shopping Voucher",
+      "OverPaymentType": "Forfeit",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 69,
+      "Name": "Soho Theatre",
+      "OverPaymentType": "Change",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 70,
+      "Name": "Meal Pal",
+      "OverPaymentType": "Change",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 72,
+      "Name": "Paper Money Voucher",
+      "OverPaymentType": "Forfeit",
+      "CurrencyId": 1,
+      "CanBeUsed": true,
+      "CashDrawerMustBeOpened": true,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 73,
+      "Name": "UberEats",
+      "OverPaymentType": "Disallowed",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 74,
+      "Name": "Savvy Redeem",
+      "OverPaymentType": "Tip",
+      "CurrencyId": 1,
+      "CashDrawerMustBeOpened": true,
+      "EftRuleId": 43
+    },
+    {
+      "Id": 75,
+      "Name": "Post to Room",
+      "OverPaymentType": "Disallowed",
+      "CurrencyId": 1,
+      "EftRuleId": 14
+    },
+    {
+      "Id": 76,
+      "Name": "PED Frozen",
+      "OverPaymentType": "Tip",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 77,
+      "Name": "Savvy Offline",
+      "OverPaymentType": "Tip",
+      "CurrencyId": 1,
+      "CashDrawerMustBeOpened": true,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 78,
+      "Name": "Click & Collect",
+      "OverPaymentType": "Disallowed",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 80,
+      "Name": "Debit/ Credit",
+      "OverPaymentType": "Disallowed",
+      "CurrencyId": 1,
+      "EftRuleId": 22
+    },
+    {
+      "Id": 81,
+      "Name": "Alipay",
+      "OverPaymentType": "Tip",
+      "CurrencyId": 1,
+      "CashDrawerMustBeOpened": true,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 82,
+      "Name": "WeChat",
+      "OverPaymentType": "Tip",
+      "CurrencyId": 1,
+      "CashDrawerMustBeOpened": true,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 83,
+      "Name": "Ritual",
+      "OverPaymentType": "Tip",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 84,
+      "Name": "Mobile CC",
+      "OverPaymentType": "Tip",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 85,
+      "Name": "App CC",
+      "OverPaymentType": "Tip",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 86,
+      "Name": "Mobile Amex",
+      "OverPaymentType": "Tip",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 87,
+      "Name": "App Amex",
+      "OverPaymentType": "Tip",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 88,
+      "Name": "Mobile PayPal",
+      "OverPaymentType": "Tip",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 89,
+      "Name": "App PayPal",
+      "OverPaymentType": "Tip",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 90,
+      "Name": "Pay via Mobile",
+      "OverPaymentType": "Tip",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 92,
+      "Name": "Mobile CC",
+      "OverPaymentType": "Disallowed",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 93,
+      "Name": "Click & Collect",
+      "OverPaymentType": "Disallowed",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 94,
+      "Name": "Za Cred",
+      "OverPaymentType": "Disallowed",
+      "CurrencyId": 1,
+      "EftRuleId": 22
+    },
+    {
+      "Id": 96,
+      "Name": "Delivero Remake",
+      "OverPaymentType": "Disallowed",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 97,
+      "Name": "FlexeC Gift Card",
+      "OverPaymentType": "Tip",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 98,
+      "Name": "zz",
+      "OverPaymentType": "Disallowed",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 99,
+      "Name": "PE Del CC",
+      "OverPaymentType": "Change",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 100,
+      "Name": "PE Del Amex",
+      "OverPaymentType": "Change",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 101,
+      "Name": "PE Del PayPal",
+      "OverPaymentType": "Change",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 103,
+      "Name": "z",
+      "OverPaymentType": "Change",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 104,
+      "Name": "TooGood- ToGo",
+      "OverPaymentType": "Disallowed",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 105,
+      "Name": "eGift Redeem",
+      "OverPaymentType": "Disallowed",
+      "CurrencyId": 1,
+      "EftRuleId": 96
+    },
+    {
+      "Id": 106,
+      "Name": "eGift Offline",
+      "OverPaymentType": "Disallowed",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 107,
+      "Name": "JE Business",
+      "OverPaymentType": "Disallowed",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 108,
+      "Name": "C&C CC",
+      "OverPaymentType": "Disallowed",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 109,
+      "Name": "C&C Amex",
+      "OverPaymentType": "Disallowed",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 110,
+      "Name": "C&C PayPal",
+      "OverPaymentType": "Disallowed",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 112,
+      "Name": "PreOrder",
+      "OverPaymentType": "Disallowed",
+      "CurrencyId": 1,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 32767,
+      "Name": "",
+      "OverPaymentType": "Tip",
+      "CurrencyId": 1,
+      "EftRuleId": 7
+    }
+  ],
+  "Currencies": [
+    {
+      "Id": 1,
+      "Name": "UK Pound",
+      "Symbol": "£",
+      "Rate": 1.0,
+      "IsBase": true
+    },
+    {
+      "Id": 2,
+      "Name": "US Dollar",
+      "Symbol": "$",
+      "Rate": 1.48
+    },
+    {
+      "Id": 3,
+      "Name": "Euro",
+      "Symbol": "€",
+      "Rate": 1.0
+    },
+    {
+      "Id": 4,
+      "Name": "Japanese Yen",
+      "Symbol": "¥",
+      "Rate": 137.0
+    }
+  ],
+  "CorrectionMethods": [
+    {
+      "Id": 1,
+      "Name": "Void",
+      "CorrectionReasons": [ 0, 0, 0 ],
+      "CorrectionType": "SavedOnly"
+    },
+    {
+      "Id": 2,
+      "Name": "Waste",
+      "CorrectionReasons": [ 0, 0, 0 ],
+      "CorrectionType": "Both"
+    },
+    {
+      "Id": 3,
+      "Name": "Walk out",
+      "CorrectionType": "SavedOnly"
+    },
+    {
+      "Id": 4,
+      "Name": "Refund",
+      "CanBeUsed": true,
+      "CorrectionReasons": [ 0, 0, 0 ],
+      "CorrectionType": "SavedOnly"
+    },
+    {
+      "Id": 5,
+      "Name": "Clear",
+      "CanBeUsed": true,
+      "CorrectionType": "UnsavedOnly"
+    },
+    {
+      "Id": 6,
+      "Name": "Team\nFood",
+      "CorrectionType": "Both"
+    },
+    {
+      "Id": 7,
+      "Name": "Void Before\nPrep",
+      "CanBeUsed": true,
+      "CorrectionReasons": [ 0, 0 ],
+      "CorrectionType": "SavedOnly"
+    },
+    {
+      "Id": 8,
+      "Name": "Refund to Stock",
+      "CanBeUsed": true,
+      "CorrectionReasons": [ 0, 0 ],
+      "CorrectionType": "SavedOnly"
+    },
+    {
+      "Id": 9,
+      "Name": "Correction",
+      "CorrectionType": "UnsavedOnly"
+    },
+    {
+      "Id": 10,
+      "Name": "Refund &\nWaste",
+      "CorrectionType": "SavedOnly"
+    },
+    {
+      "Id": 11,
+      "Name": "iServe\nClear",
+      "CorrectionType": "Both"
+    },
+    {
+      "Id": 12,
+      "Name": "Test",
+      "CorrectionReasons": [ 0, 0 ],
+      "CorrectionType": "SavedOnly"
+    },
+    {
+      "Id": 13,
+      "Name": "Flypay",
+      "CorrectionType": "Both"
+    },
+    {
+      "Id": 100000,
+      "Name": "PreConfirmation",
+      "CorrectionType": "UnsavedOnly"
+    },
+    {
+      "Id": 100001,
+      "Name": "SplittingDiscount",
+      "CorrectionType": "Both"
+    },
+    {
+      "Id": 100002,
+      "Name": "Change\nOrder\nDestination",
+      "CorrectionType": "Both"
+    }
+  ],
+  "CorrectionReasons": [],
+  "Employees": [
+    {
+      "Id": 200000000082,
+      "Username": "Online Order",
+      "FullName": "Online Order Unattended",
+      "DefaultRole": 15,
+      "Roles": [ 15 ]
+    },
+    {
+      "Id": 200000000124,
+      "Username": "DonnaH",
+      "FullName": "Donna Hayes",
+      "DefaultRole": 11,
+      "Roles": [ 11 ]
+    },
+    {
+      "Id": 200000000147,
+      "Username": "zz_dnu",
+      "FullName": "Flypay ServiceAccount",
+      "DefaultRole": 12,
+      "Roles": [ 12 ]
+    },
+    {
+      "Id": 200000000337,
+      "Username": "iOrder1",
+      "FullName": "iOrder TableService1",
+      "DefaultRole": 11,
+      "Roles": [ 11 ]
+    },
+    {
+      "Id": 200000000338,
+      "Username": "iOrder2",
+      "FullName": "iOrder TableService2",
+      "DefaultRole": 11,
+      "Roles": [ 11 ]
+    },
+    {
+      "Id": 200000000339,
+      "Username": "iOrder3",
+      "FullName": "iOrder TableService3",
+      "DefaultRole": 11,
+      "Roles": [ 11 ]
+    },
+    {
+      "Id": 200000000340,
+      "Username": "iOrder4",
+      "FullName": "iOrder TableService4",
+      "DefaultRole": 11,
+      "Roles": [ 11 ]
+    },
+    {
+      "Id": 200000000341,
+      "Username": "iOrder5",
+      "FullName": "iOrder TableService5",
+      "DefaultRole": 11,
+      "Roles": [ 11 ]
+    },
+    {
+      "Id": 200000000346,
+      "Username": "NutanPT",
+      "FullName": "Nutan Patel",
+      "DefaultRole": 11,
+      "Roles": [ 11 ]
+    },
+    {
+      "Id": 200000000391,
+      "Username": "PeteO",
+      "FullName": "Pete Osmond",
+      "DefaultRole": 11,
+      "Roles": [ 11 ]
+    },
+    {
+      "Id": 300031000004,
+      "Username": "manager",
+      "FullName": "manager manager",
+      "Password": "1111",
+      "DefaultRole": 11,
+      "Roles": [ 11 ]
+    },
+    {
+      "Id": 300031000005,
+      "Username": "team",
+      "FullName": "team team",
+      "Password": "2222",
+      "DefaultRole": 12,
+      "Roles": [ 12 ]
+    },
+    {
+      "Id": 300031000006,
+      "Username": "manager2",
+      "FullName": "manager2 manager2",
+      "DallasId": "5581",
+      "Password": "1234",
+      "DefaultRole": 11,
+      "Roles": [ 11 ]
+    }
+  ],
+  "Reasons": [
+    {
+      "Id": 1,
+      "Name": "Slow Service",
+      "EposName": "Slow\nService"
+    },
+    {
+      "Id": 2,
+      "Name": "Cold Food/Kitchen",
+      "EposName": "Cold Food/\nKitchen"
+    },
+    {
+      "Id": 3,
+      "Name": "Customer Mistake",
+      "EposName": "Customer\nMistake"
+    },
+    {
+      "Id": 4,
+      "Name": "Server Mistake",
+      "EposName": "Server\nMistake"
+    },
+    {
+      "Id": 5,
+      "Name": "Complimentary",
+      "EposName": "Complimen\ntary"
+    },
+    {
+      "Id": 6,
+      "Name": "Customer Error",
+      "EposName": "Customer\nError"
+    },
+    {
+      "Id": 7,
+      "Name": "Waiter Error",
+      "EposName": "Waiter\nError"
+    },
+    {
+      "Id": 8,
+      "Name": "Chef Error",
+      "EposName": "Chef\nError"
+    },
+    {
+      "Id": 9,
+      "Name": "Service Complaint",
+      "EposName": "Service\nComplaint"
+    },
+    {
+      "Id": 10,
+      "Name": "Food Quality Complaint",
+      "EposName": "Food\nQuality\nComplaint"
+    },
+    {
+      "Id": 11,
+      "Name": "Manager Discount",
+      "EposName": "Manager\nDiscount"
+    },
+    {
+      "Id": 12,
+      "EposName": "Card No &\nName",
+      "IsOpenEntry": true
+    },
+    {
+      "Id": 13,
+      "EposName": "Employee\nDetails",
+      "IsOpenEntry": true
+    },
+    {
+      "Id": 14,
+      "Name": "Charity Event",
+      "EposName": "Charity\nEvent"
+    },
+    {
+      "Id": 15,
+      "Name": "Poor Service",
+      "EposName": "Poor\nService"
+    },
+    {
+      "Id": 16,
+      "Name": "Poor Food Quality",
+      "EposName": "Poor Food\nQuality"
+    },
+    {
+      "Id": 17,
+      "Name": "Foreign body",
+      "EposName": "Foreign\nbody"
+    },
+    {
+      "Id": 18,
+      "Name": "Menu Launch",
+      "EposName": "Menu\nLaunch"
+    },
+    {
+      "Id": 19,
+      "Name": "Manager Exceptions",
+      "EposName": "Manager\nExceptions"
+    },
+    {
+      "Id": 20,
+      "Name": "Promo Adjustment",
+      "EposName": "Promo\nAdjustmen\nt"
+    },
+    {
+      "Id": 21,
+      "Name": "Runners",
+      "EposName": "Runners"
+    },
+    {
+      "Id": 22,
+      "Name": "Local Promotions",
+      "EposName": "Local\nPromotions"
+    },
+    {
+      "Id": 23,
+      "Name": "Complaint Return Visit",
+      "EposName": "Complaint\nReturn\nVisit"
+    },
+    {
+      "Id": 24,
+      "Name": "Training course",
+      "EposName": "Training\ncourse"
+    },
+    {
+      "Id": 25,
+      "Name": "John Lewis",
+      "EposName": "John Lewis"
+    },
+    {
+      "Id": 26,
+      "Name": "Hilton Hotel",
+      "EposName": "Hilton\nHotel"
+    },
+    {
+      "Id": 27,
+      "Name": "Flier",
+      "EposName": "Flier"
+    },
+    {
+      "Id": 28,
+      "EposName": "Card\nNumber\nRequired",
+      "IsOpenEntry": true
+    },
+    {
+      "Id": 29,
+      "EposName": "Promo\nAjust",
+      "IsOpenEntry": true
+    },
+    {
+      "Id": 30,
+      "Name": "Order was Cold",
+      "EposName": "Order was\nCold"
+    },
+    {
+      "Id": 31,
+      "Name": "Order was Late",
+      "EposName": "Order was\nLate"
+    },
+    {
+      "Id": 32,
+      "Name": "Manager Comp",
+      "EposName": "Manager\nComp"
+    },
+    {
+      "Id": 33,
+      "Name": "Missing Item",
+      "EposName": "Missing\nItem"
+    },
+    {
+      "Id": 34,
+      "Name": "Sampling",
+      "EposName": "Sampling"
+    },
+    {
+      "Id": 35,
+      "EposName": "Other",
+      "IsOpenEntry": true
+    }
+  ],
+  "PrinterTypes": [
+    {
+      "Id": 2500,
+      "Name": "CBM1000"
+    },
+    {
+      "Id": 2501,
+      "Name": "StarSP342FD"
+    },
+    {
+      "Id": 2502,
+      "Name": "Z412"
+    },
+    {
+      "Id": 2503,
+      "Name": "TM-U210B"
+    },
+    {
+      "Id": 2504,
+      "Name": "Z412 Partial Cut"
+    },
+    {
+      "Id": 2505,
+      "Name": "Kitchen Screen 1"
+    },
+    {
+      "Id": 2506,
+      "Name": "Kitchen Screen 2"
+    },
+    {
+      "Id": 2507,
+      "Name": "Kitchen Screen 3"
+    },
+    {
+      "Id": 2508,
+      "Name": "Kitchen Screen 4"
+    },
+    {
+      "Id": 2509,
+      "Name": "Kitchen Screen 5"
+    },
+    {
+      "Id": 2510,
+      "Name": "Kitchen Screen 6"
+    },
+    {
+      "Id": 2511,
+      "Name": "Kitchen Screen 7"
+    },
+    {
+      "Id": 2512,
+      "Name": "Kitchen Screen 8"
+    },
+    {
+      "Id": 2513,
+      "Name": "Kitchen Screen 9"
+    },
+    {
+      "Id": 2514,
+      "Name": "Star TSP 400"
+    },
+    {
+      "Id": 2515,
+      "Name": "SRP-275"
+    },
+    {
+      "Id": 2516,
+      "Name": "CBM1000 MK1(2400)"
+    },
+    {
+      "Id": 2517,
+      "Name": "Star TSP242 Thermal"
+    },
+    {
+      "Id": 2518,
+      "Name": "Star SP200/SP2000/SP500"
+    },
+    {
+      "Id": 2519,
+      "Name": "Star SP246 2-color"
+    },
+    {
+      "Id": 2520,
+      "Name": "CBM1000 (Pre-set Logo)"
+    },
+    {
+      "Id": 2521,
+      "Name": "Orient BTP-R580/R580II (Serial)"
+    },
+    {
+      "Id": 2522,
+      "Name": "Star TSP700 II"
+    },
+    {
+      "Id": 2523,
+      "Name": "Orient BTP-R580/R580II (Pre-set Logo, Serial)"
+    },
+    {
+      "Id": 2524,
+      "Name": "IBM 4610 - 1NR"
+    },
+    {
+      "Id": 2525,
+      "Name": "IBM 4610 - TF6"
+    },
+    {
+      "Id": 2526,
+      "Name": "Epson TM-U220B"
+    },
+    {
+      "Id": 2534,
+      "Name": "Toshiba TRST-A00"
+    },
+    {
+      "Id": 2535,
+      "Name": "Orient BTP-R580II (IP)"
+    },
+    {
+      "Id": 2536,
+      "Name": "Orient BTP-R580II (Pre-set Logo, IP)"
+    },
+    {
+      "Id": 2537,
+      "Name": "Orient BTP-M300 (IP)"
+    },
+    {
+      "Id": 2538,
+      "Name": "Toshiba TRST-A10"
+    },
+    {
+      "Id": 2539,
+      "Name": "Orient BTP-M300 (Serial)"
+    },
+    {
+      "Id": 2540,
+      "Name": "Star TSP650"
+    },
+    {
+      "Id": 2541,
+      "Name": "Epson TM-U200D"
+    },
+    {
+      "Id": 2542,
+      "Name": "Star SP700"
+    },
+    {
+      "Id": 2543,
+      "Name": "Zebra ZQ510"
+    },
+    {
+      "Id": 2544,
+      "Name": "Zebra ZQ510 (Pre-set Logo)"
+    },
+    {
+      "Id": 2545,
+      "Name": "Toshiba TRST-A10 (Pre-set logo)"
+    },
+    {
+      "Id": 2560,
+      "Name": "Kitchen Screen via IP 1"
+    },
+    {
+      "Id": 2561,
+      "Name": "Kitchen Screen via IP 2"
+    },
+    {
+      "Id": 2562,
+      "Name": "Kitchen Screen via IP 3"
+    },
+    {
+      "Id": 2563,
+      "Name": "Kitchen Screen via IP 4"
+    },
+    {
+      "Id": 2564,
+      "Name": "Kitchen Screen via IP 5"
+    },
+    {
+      "Id": 2565,
+      "Name": "Kitchen Screen via IP 6"
+    },
+    {
+      "Id": 2566,
+      "Name": "Kitchen Screen via IP 7"
+    },
+    {
+      "Id": 2567,
+      "Name": "Kitchen Screen via IP 8"
+    },
+    {
+      "Id": 2568,
+      "Name": "Kitchen Screen via IP 9"
+    },
+    {
+      "Id": 10007,
+      "Name": "ICC&Printer Verifone serial (Vx670)"
+    },
+    {
+      "Id": 10030,
+      "Name": "ICC&Printer Verifone serial via IP (Vx670)"
+    },
+    {
+      "Id": 10031,
+      "Name": "ICC&Printer Verifone wired IP (Vx810 Duet)"
+    },
+    {
+      "Id": 10032,
+      "Name": "ICC&Printer Vx Pay At Table serial via IP (Vx670)"
+    },
+    {
+      "Id": 10035,
+      "Name": "Ocius PED (Integrated Printer)"
+    },
+    {
+      "Id": 10036,
+      "Name": "US EMV IP PED with printer"
+    },
+    {
+      "Id": 32515,
+      "Name": "Zebra QL220"
+    },
+    {
+      "Id": 32516,
+      "Name": "Zebra QL320"
+    },
+    {
+      "Id": 32517,
+      "Name": "CMP10"
+    },
+    {
+      "Id": 32518,
+      "Name": "ICC&Printer Ingenico serial (I7780)"
+    },
+    {
+      "Id": 32519,
+      "Name": "Zebra QL220+"
+    },
+    {
+      "Id": 32520,
+      "Name": "Bixolon SPP-R200"
+    }
+  ],
+  "HeadersAndFooters": [
+    {
+      "Kind": "EftHeader",
+      "Lines": [ "", "", "" ]
+    },
+    {
+      "Kind": "StandardHeader",
+      "Lines": [ "", "", "" ]
+    },
+    {
+      "Kind": "StandardFooter",
+      "Lines": [ "" ]
+    },
+    {
+      "Kind": "BillFooter",
+      "Lines": []
+    },
+    {
+      "Kind": "CorrectionTicketFooter",
+      "Lines": [ "", "", "" ]
+    },
+    {
+      "Kind": "VatNumber",
+      "Lines": [ "VAT NUM :- 12345678908888" ]
+    }
+  ],
+  "Divisions": [
+    {
+      "Id": 1,
+      "CanPayOnBarAccount": true,
+      "CanSaveOnBarAccount": false
+    },
+    {
+      "Id": 2,
+      "CanPayOnBarAccount": true,
+      "CanSaveOnBarAccount": false
+    },
+    {
+      "Id": 3,
+      "CanPayOnBarAccount": true,
+      "CanSaveOnBarAccount": false
+    },
+    {
+      "Id": 4,
+      "CanPayOnBarAccount": true,
+      "CanSaveOnBarAccount": false
+    },
+    {
+      "Id": 5,
+      "CanPayOnBarAccount": true,
+      "CanSaveOnBarAccount": false
+    },
+    {
+      "Id": 7,
+      "CanPayOnBarAccount": true,
+      "CanSaveOnBarAccount": true
+    },
+    {
+      "Id": 8,
+      "CanPayOnBarAccount": true,
+      "CanSaveOnBarAccount": true
+    },
+    {
+      "Id": 9,
+      "CanPayOnBarAccount": true,
+      "CanSaveOnBarAccount": true
+    },
+    {
+      "Id": 10,
+      "CanPayOnBarAccount": true,
+      "CanSaveOnBarAccount": true
+    },
+    {
+      "Id": 11,
+      "CanPayOnBarAccount": true,
+      "CanSaveOnBarAccount": true
+    },
+    {
+      "Id": 12,
+      "CanPayOnBarAccount": true,
+      "CanSaveOnBarAccount": true
+    },
+    {
+      "Id": 13,
+      "CanPayOnBarAccount": true,
+      "CanSaveOnBarAccount": true
+    },
+    {
+      "Id": 14,
+      "CanPayOnBarAccount": true,
+      "CanSaveOnBarAccount": true
+    },
+    {
+      "Id": 15,
+      "CanPayOnBarAccount": true,
+      "CanSaveOnBarAccount": true
+    },
+    {
+      "Id": 16,
+      "CanPayOnBarAccount": true,
+      "CanSaveOnBarAccount": true
+    },
+    {
+      "Id": 17,
+      "CanPayOnBarAccount": true,
+      "CanSaveOnBarAccount": true
+    },
+    {
+      "Id": 19,
+      "CanPayOnBarAccount": true,
+      "CanSaveOnBarAccount": true
+    }
+  ],
+  "SubCategories": [
+    {
+      "Id": 1,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 2,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 4,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 5,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 6,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 7,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 8,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 9,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 10,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 11,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 12,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 13,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 14,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 15,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 16,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 17,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 18,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 19,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 20,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 21,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 22,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 23,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 24,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 25,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 26,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 27,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 28,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 29,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 30,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 31,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 32,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 33,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 34,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 35,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 36,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 37,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 38,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 39,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 40,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 41,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 42,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 43,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 44,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 45,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 46,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 47,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 48,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 49,
+      "HotelDivision": 2
+    },
+    {
+      "Id": 50,
+      "HotelDivision": 2
+    },
+    {
+      "Id": 51,
+      "HotelDivision": 2
+    },
+    {
+      "Id": 52,
+      "HotelDivision": 2
+    },
+    {
+      "Id": 53,
+      "HotelDivision": 2
+    },
+    {
+      "Id": 54,
+      "HotelDivision": 2
+    },
+    {
+      "Id": 55,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 56,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 57,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 58,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 59,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 60,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 61,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 62,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 63,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 64,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 65,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 66,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 67,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 68,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 69,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 70,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 71,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 72,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 73,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 74,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 75,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 76,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 77,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 78,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 79,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 80,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 82,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 83,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 85,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 86,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 89,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 90,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 91,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 92,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 93,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 94,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 95,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 96,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 97,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 98,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 99,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 100,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 101,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 102,
+      "HotelDivision": 2
+    },
+    {
+      "Id": 103,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 104,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 105,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 106,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 108,
+      "HotelDivision": 2
+    },
+    {
+      "Id": 109,
+      "HotelDivision": 2
+    },
+    {
+      "Id": 110,
+      "HotelDivision": 2
+    },
+    {
+      "Id": 111,
+      "HotelDivision": 2
+    },
+    {
+      "Id": 112,
+      "HotelDivision": 2
+    },
+    {
+      "Id": 113,
+      "HotelDivision": 2
+    },
+    {
+      "Id": 114,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 115,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 116,
+      "HotelDivision": 2
+    },
+    {
+      "Id": 117,
+      "HotelDivision": 2
+    },
+    {
+      "Id": 118,
+      "HotelDivision": 2
+    },
+    {
+      "Id": 119,
+      "HotelDivision": 2
+    },
+    {
+      "Id": 120,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 121,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 122,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 123,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 124,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 125,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 126,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 127,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 128,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 129,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 130,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 131,
+      "HotelDivision": 2
+    },
+    {
+      "Id": 132,
+      "HotelDivision": 2
+    },
+    {
+      "Id": 133,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 134,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 135,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 136,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 137,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 138,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 139,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 140,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 141,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 142,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 143,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 144,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 145,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 146,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 147,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 148,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 149,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 150,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 151,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 152,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 153,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 154,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 155,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 156,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 157,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 158,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 159,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 160,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 161,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 162,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 163,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 164,
+      "HotelDivision": 3
+    },
+    {
+      "Id": 165,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 166,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 167,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 168,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 170,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 171,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 172,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 173,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 174,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 175,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 176,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 177,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 178,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 179,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 180,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 181,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 183,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 184,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 186,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 187,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 188,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 189,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 190,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 191,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 192,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 193,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 194,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 195,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 196,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 197,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 198,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 199,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 200,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 201,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 202,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 203,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 204,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 205,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 206,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 207,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 208,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 209,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 210,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 211,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 212,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 213,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 214,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 215,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 216,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 217,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 218,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 219,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 220,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 221,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 222,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 223,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 224,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 225,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 226,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 227,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 228,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 229,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 230,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 231,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 232,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 233,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 234,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 235,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 236,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 237,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 238,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 239,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 240,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 241,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 242,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 243,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 244,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 245,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 246,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 247,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 248,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 249,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 250,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 251,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 252,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 253,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 254,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 255,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 257,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 258,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 259,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 260,
+      "HotelDivision": 1
+    }
+  ],
+  "EftRules": [
+    {
+      "Id": 1,
+      "Name": "SOAP Card Validation",
+      "ServiceRequestType": "PerformCardValidation",
+      "DataEntryMethod": "SwipeOrNumericBarCode",
+      "Timeout": 1215
+    },
+    {
+      "Id": 2,
+      "Name": "ZonalEFT Keyed",
+      "DataEntryMethod": "KeyedPAN",
+      "Timeout": 120
+    },
+    {
+      "Id": 3,
+      "Name": "EFT Keyed",
+      "ServiceRequestType": "PerformCardPayment",
+      "DataEntryMethod": "KeyedPAN",
+      "Timeout": 1215
+    },
+    {
+      "Id": 4,
+      "Name": "EFT ICC",
+      "ServiceRequestType": "PerformCardPayment",
+      "DataEntryMethod": "PINPad",
+      "Timeout": 1215
+    },
+    {
+      "Id": 5,
+      "Name": "Commidea",
+      "DataEntryMethod": "None",
+      "Timeout": 99
+    },
+    {
+      "Id": 6,
+      "Name": "Gift Card",
+      "DataEntryMethod": "SwipeKeyedOrNumericBarCode",
+      "Timeout": 120
+    },
+    {
+      "Id": 7,
+      "Name": "ZonalEFT ICC",
+      "DataEntryMethod": "PINPad",
+      "Timeout": 60
+    },
+    {
+      "Id": 8,
+      "Name": "Old Gift Card (iss)",
+      "DataEntryMethod": "SwipeKeyedOrNumericBarCode",
+      "Timeout": 120
+    },
+    {
+      "Id": 9,
+      "Name": "Old Gift Card (bal)",
+      "DataEntryMethod": "SwipeKeyedOrNumericBarCode",
+      "Timeout": 120
+    },
+    {
+      "Id": 10,
+      "Name": "Stored Value Card",
+      "DataEntryMethod": "SwipeKeyedOrNumericBarCode",
+      "Timeout": 120
+    },
+    {
+      "Id": 11,
+      "Name": "Stored Value Card (iss)",
+      "DataEntryMethod": "SwipeKeyedOrNumericBarCode",
+      "Timeout": 120
+    },
+    {
+      "Id": 12,
+      "Name": "Stored Value Card (bal)",
+      "DataEntryMethod": "SwipeKeyedOrNumericBarCode",
+      "Timeout": 120
+    },
+    {
+      "Id": 13,
+      "Name": "SOAP Pre Auth ICC",
+      "ServiceRequestType": "PerformCardPreAuth",
+      "DataEntryMethod": "PINPad",
+      "Timeout": 1215
+    },
+    {
+      "Id": 14,
+      "Name": "Room Posting",
+      "DataEntryMethod": "Room",
+      "Timeout": 120
+    },
+    {
+      "Id": 15,
+      "Name": "Ledgers",
+      "DataEntryMethod": "None",
+      "Timeout": 20
+    },
+    {
+      "Id": 16,
+      "Name": "Bookings",
+      "DataEntryMethod": "None",
+      "Timeout": 20
+    },
+    {
+      "Id": 17,
+      "Name": "Promo card",
+      "DataEntryMethod": "None",
+      "Timeout": 20
+    },
+    {
+      "Id": 18,
+      "Name": "Gift Card Issue",
+      "ServiceRequestType": "IssueGiftCard",
+      "DataEntryMethod": "SwipeKeyedOrNumericBarCode",
+      "Timeout": 1215
+    },
+    {
+      "Id": 19,
+      "Name": "Gift Card Balance",
+      "ServiceRequestType": "CheckGiftCardBalance",
+      "DataEntryMethod": "SwipeKeyedOrNumericBarCode",
+      "Timeout": 1215
+    },
+    {
+      "Id": 20,
+      "Name": "Gift Card",
+      "ServiceRequestType": "PerformGiftCardPayment",
+      "DataEntryMethod": "SwipeKeyedOrNumericBarCode",
+      "Timeout": 120
+    },
+    {
+      "Id": 21,
+      "Name": "SOAP Post to Room",
+      "ServiceRequestType": "PostToRoom",
+      "DataEntryMethod": "Room",
+      "Timeout": 1215
+    },
+    {
+      "Id": 22,
+      "Name": "SOAP Ocius",
+      "ServiceRequestType": "PerformCardPayment",
+      "DataEntryMethod": "PINPadAlwaysRequired",
+      "Timeout": 1215
+    },
+    {
+      "Id": 23,
+      "Name": "Mobile top-up",
+      "ServiceRequestType": "TopUpMobilePhone",
+      "DataEntryMethod": "None",
+      "Timeout": 1215
+    },
+    {
+      "Id": 24,
+      "Name": "Uncontactable",
+      "DataEntryMethod": "None",
+      "Timeout": 20
+    },
+    {
+      "Id": 25,
+      "Name": "Activity management",
+      "DataEntryMethod": "None",
+      "Timeout": 20
+    },
+    {
+      "Id": 26,
+      "Name": "Pre-booked sales",
+      "DataEntryMethod": "None",
+      "Timeout": 20
+    },
+    {
+      "Id": 27,
+      "Name": "EFT MSR",
+      "ServiceRequestType": "PerformCardPayment",
+      "DataEntryMethod": "SwipeKeyedOrNumericBarCode",
+      "Timeout": 1215
+    },
+    {
+      "Id": 28,
+      "Name": "ZonalEFT MSR",
+      "DataEntryMethod": "SwipeKeyedOrNumericBarCode",
+      "Timeout": 120
+    },
+    {
+      "Id": 29,
+      "Name": "ZonalEFT MSR only",
+      "DataEntryMethod": "SwipeOrNumericBarCode",
+      "Timeout": 120
+    },
+    {
+      "Id": 30,
+      "Name": "SOAP Pre Auth Swiped",
+      "ServiceRequestType": "PerformCardPreAuth",
+      "DataEntryMethod": "SwipeKeyedOrNumericBarCode",
+      "Timeout": 1215
+    },
+    {
+      "Id": 31,
+      "Name": "Checking iZone Balance",
+      "ServiceRequestType": "CheckLoyaltyBalance",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 20,
+      "ZcfClmOperationType": "Balance"
+    },
+    {
+      "Id": 32,
+      "Name": "iZone Add Points",
+      "ServiceRequestType": "PostTicket",
+      "DataEntryMethod": "None",
+      "Timeout": 20
+    },
+    {
+      "Id": 33,
+      "Name": "iZone Pay by Points",
+      "ServiceRequestType": "PayWithLoyaltyCard",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 20
+    },
+    {
+      "Id": 34,
+      "Name": "Redeeming iZone Prizes",
+      "ServiceRequestType": "RedeemPrizes",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 20,
+      "ZcfClmOperationType": "Redeem"
+    },
+    {
+      "Id": 35,
+      "Name": "Registering Account",
+      "ServiceRequestType": "RegisterAccount",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 20
+    },
+    {
+      "Id": 36,
+      "Name": "Cancelling iZone prizes",
+      "ServiceRequestType": "ReverseCLMRedemptions",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 20
+    },
+    {
+      "Id": 37,
+      "Name": "e-Gift Payment",
+      "ServiceRequestType": "PayByEGift",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 20
+    },
+    {
+      "Id": 38,
+      "Name": "e-Gift TopUp",
+      "ServiceRequestType": "TopUpEGift",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 20
+    },
+    {
+      "Id": 39,
+      "Name": "e-Gift Balance",
+      "ServiceRequestType": "CheckEGiftBalance",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 20
+    },
+    {
+      "Id": 40,
+      "Name": "Redeem TXD voucher",
+      "ServiceRequestType": "RedeemVoucher",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 20
+    },
+    {
+      "Id": 41,
+      "Name": "Cancel All TXD vouchers",
+      "ServiceRequestType": "UnredeemVoucher",
+      "DataEntryMethod": "None",
+      "Timeout": 20
+    },
+    {
+      "Id": 42,
+      "Name": "TXD post ticket",
+      "ServiceRequestType": "PostTicket",
+      "DataEntryMethod": "None",
+      "Timeout": 20
+    },
+    {
+      "Id": 43,
+      "Name": "Card Commerce Gift Payment",
+      "ServiceRequestType": "CardCommerceGiftPayment",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 20
+    },
+    {
+      "Id": 44,
+      "Name": "Card Commerce Gift TopUp",
+      "ServiceRequestType": "CardCommerceGiftTopUp",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 20
+    },
+    {
+      "Id": 45,
+      "Name": "Card Commerce Gift Balance",
+      "ServiceRequestType": "CardCommerceGiftBalance",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 20
+    },
+    {
+      "Id": 46,
+      "Name": "Card Commerce Redeem eCoupon",
+      "ServiceRequestType": "CardCommerceRedeemECoupon",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 20
+    },
+    {
+      "Id": 47,
+      "Name": "Card Commerce Apply Discount",
+      "ServiceRequestType": "CardCommerceApplyDiscount",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 20
+    },
+    {
+      "Id": 48,
+      "Name": "Card Commerce Cancel Discount",
+      "ServiceRequestType": "CardCommerceCancelDiscount",
+      "DataEntryMethod": "None",
+      "Timeout": 20
+    },
+    {
+      "Id": 49,
+      "Name": "EFT CNP",
+      "ServiceRequestType": "PerformCardNotPresentPayment",
+      "DataEntryMethod": "PINPadPreAuthOverride",
+      "Timeout": 1215
+    },
+    {
+      "Id": 50,
+      "Name": "EFT Walk Out",
+      "ServiceRequestType": "PerformCardPayment",
+      "DataEntryMethod": "TransactionNumberOnly",
+      "Timeout": 1215
+    },
+    {
+      "Id": 51,
+      "Name": "EFT ICC",
+      "ServiceRequestType": "PerformCardPayment",
+      "DataEntryMethod": "PINPadPreAuthOverride",
+      "Timeout": 1215
+    },
+    {
+      "Id": 53,
+      "Name": "Stampfeet Post",
+      "ServiceRequestType": "PostStampfeetTicket",
+      "DataEntryMethod": "None",
+      "Timeout": 10
+    },
+    {
+      "Id": 54,
+      "Name": "Ceridian Gift Card Payment",
+      "ServiceRequestType": "CeridianGiftCardPayment",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 135
+    },
+    {
+      "Id": 55,
+      "Name": "Ceridian Gift Card Balance",
+      "ServiceRequestType": "CeridianGiftCardBalance",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 135
+    },
+    {
+      "Id": 56,
+      "Name": "Get Staff Message",
+      "ServiceRequestType": "GetStaffMessage",
+      "DataEntryMethod": "None",
+      "Timeout": 20
+    },
+    {
+      "Id": 57,
+      "Name": "Enable CC Promo",
+      "ServiceRequestType": "CardCommerceEnablePromo",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 20
+    },
+    {
+      "Id": 58,
+      "Name": "Girovend Balance Check",
+      "ServiceRequestType": "PerformEPurseBalanceCheckGirovend",
+      "DataEntryMethod": "None",
+      "Timeout": 20
+    },
+    {
+      "Id": 59,
+      "Name": "Girovend Payment",
+      "ServiceRequestType": "PerformEPursePaymentGirovend",
+      "DataEntryMethod": "None",
+      "Timeout": 20
+    },
+    {
+      "Id": 60,
+      "Name": "eSocket.POS Keyed",
+      "ServiceRequestType": "PerformCardNotPresentPayment",
+      "DataEntryMethod": "PINPad",
+      "Timeout": 1215,
+      "CashbackAllowedOnBarAccounts": true,
+      "CashbackAllowedOnPerSeatTableAccounts": true,
+      "CashbackAllowedOnNonPerSeatTableAccounts": true,
+      "CashbackAllowedOnDriveThruAccounts": true
+    },
+    {
+      "Id": 61,
+      "Name": "eSocket.POS",
+      "ServiceRequestType": "PerformCardPayment",
+      "DataEntryMethod": "None",
+      "Timeout": 1215
+    },
+    {
+      "Id": 62,
+      "Name": "EsVelte e-Gift Payment",
+      "ServiceRequestType": "EsVelteEGiftPayment",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 20
+    },
+    {
+      "Id": 63,
+      "Name": "Esvelte e-Gift TopUp",
+      "ServiceRequestType": "EsVelteEGiftTopUp",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 20
+    },
+    {
+      "Id": 64,
+      "Name": "EsVelte e-Gift Balance",
+      "ServiceRequestType": "EsvelteBalance",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 20
+    },
+    {
+      "Id": 65,
+      "Name": "iZone Assign Account",
+      "ServiceRequestType": "AssignAccount",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 20
+    },
+    {
+      "Id": 66,
+      "Name": "Request TXD voucher",
+      "ServiceRequestType": "RequestVoucher",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 20
+    },
+    {
+      "Id": 67,
+      "Name": "Point Gift Issue",
+      "ServiceRequestType": "IssueGiftCard",
+      "DataEntryMethod": "PINPadPreAuthOverride",
+      "Timeout": 1215
+    },
+    {
+      "Id": 68,
+      "Name": "Point Gift Balance",
+      "ServiceRequestType": "CheckGiftCardBalance",
+      "DataEntryMethod": "PINPadPreAuthOverride",
+      "Timeout": 1215
+    },
+    {
+      "Id": 69,
+      "Name": "Point Gift Card",
+      "ServiceRequestType": "PerformGiftCardPayment",
+      "DataEntryMethod": "PINPadPreAuthOverride",
+      "Timeout": 1215
+    },
+    {
+      "Id": 70,
+      "Name": "EFT PED Keyed",
+      "ServiceRequestType": "PerformCardNotPresentPayment",
+      "DataEntryMethod": "PINPadPreAuthOverride",
+      "Timeout": 1215
+    },
+    {
+      "Id": 71,
+      "Name": "SOAP Ocius CNP",
+      "ServiceRequestType": "PerformCardNotPresentPayment",
+      "DataEntryMethod": "PINPadAlwaysRequired",
+      "Timeout": 1215
+    },
+    {
+      "Id": 72,
+      "Name": "Ocius CardHolder Reprint",
+      "ServiceRequestType": "PerformPrintout",
+      "DataEntryMethod": "PINPad",
+      "Timeout": 99
+    },
+    {
+      "Id": 73,
+      "Name": "Ocius Merchant Reprint",
+      "ServiceRequestType": "PerformPrintout",
+      "DataEntryMethod": "PINPad",
+      "Timeout": 99
+    },
+    {
+      "Id": 74,
+      "Name": "Ocius Sys Info Print",
+      "ServiceRequestType": "PerformPrintout",
+      "DataEntryMethod": "SiteWidePINPads",
+      "Timeout": 99
+    },
+    {
+      "Id": 75,
+      "Name": "SOAP Ocius Token",
+      "ServiceRequestType": "PerformCardNotPresentPayment",
+      "DataEntryMethod": "PINPadAndToken",
+      "Timeout": 1215
+    },
+    {
+      "Id": 76,
+      "Name": "TranCloud Standalone Refund",
+      "ServiceRequestType": "PerformStandaloneCardPayment",
+      "DataEntryMethod": "PINPad",
+      "Timeout": 99
+    },
+    {
+      "Id": 77,
+      "Name": "TranCloud EFT ICC",
+      "ServiceRequestType": "PerformCardPayment",
+      "DataEntryMethod": "PINPad",
+      "Timeout": 1215
+    },
+    {
+      "Id": 78,
+      "Name": "TranCloud EFT PED Keyed",
+      "ServiceRequestType": "PerformCardNotPresentPayment",
+      "DataEntryMethod": "PINPadPreAuthOverride",
+      "Timeout": 1215
+    },
+    {
+      "Id": 79,
+      "Name": "Create Booking",
+      "ServiceRequestType": "CreateBooking",
+      "DataEntryMethod": "None",
+      "Timeout": 20
+    },
+    {
+      "Id": 80,
+      "Name": "Room Enquiry",
+      "ServiceRequestType": "RoomEnquiry",
+      "DataEntryMethod": "None",
+      "Timeout": 20
+    },
+    {
+      "Id": 81,
+      "Name": "Cancel Single TXD Voucher",
+      "ServiceRequestType": "UnredeemSingleVoucher",
+      "DataEntryMethod": "None",
+      "Timeout": 20
+    },
+    {
+      "Id": 83,
+      "Name": "Intercard Balance",
+      "ServiceRequestType": "IntercardBalanceInquiry",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 30
+    },
+    {
+      "Id": 84,
+      "Name": "Intercard Payment",
+      "ServiceRequestType": "IntercardPay",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 30
+    },
+    {
+      "Id": 85,
+      "Name": "Intercard Credit",
+      "ServiceRequestType": "IntercardCreditAccount",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 30
+    },
+    {
+      "Id": 86,
+      "Name": "Intercard Void Credit",
+      "ServiceRequestType": "IntercardReverseCredit",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 30
+    },
+    {
+      "Id": 87,
+      "Name": "Intercard Refund Card",
+      "ServiceRequestType": "IntercardRefundCard",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 30
+    },
+    {
+      "Id": 88,
+      "Name": "iCoupon Redeem",
+      "ServiceRequestType": "ICouponRedeem",
+      "DataEntryMethod": "ExtraLargeBarCode",
+      "Timeout": 20
+    },
+    {
+      "Id": 89,
+      "Name": "iCoupon Void",
+      "ServiceRequestType": "ICouponVoid",
+      "DataEntryMethod": "ExtraLargeBarCode",
+      "Timeout": 20
+    },
+    {
+      "Id": 90,
+      "Name": "iCoupon PostTicket",
+      "ServiceRequestType": "PostTicket",
+      "DataEntryMethod": "None",
+      "Timeout": 20
+    },
+    {
+      "Id": 91,
+      "Name": "Wizard",
+      "ServiceRequestType": "Wizard",
+      "DataEntryMethod": "None",
+      "Timeout": 20
+    },
+    {
+      "Id": 92,
+      "Name": "DRS Card Swipe",
+      "ServiceRequestType": "BeginGentingCardSwipe",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 60
+    },
+    {
+      "Id": 93,
+      "Name": "DRS Manual Search",
+      "ServiceRequestType": "BeginGentingManualSearch",
+      "DataEntryMethod": "None",
+      "Timeout": 60
+    },
+    {
+      "Id": 94,
+      "Name": "Complete DRS Operation",
+      "ServiceRequestType": "CompleteGenting",
+      "DataEntryMethod": "None",
+      "Timeout": 60
+    },
+    {
+      "Id": 95,
+      "Name": "DRS Reverse Payment",
+      "ServiceRequestType": "CancelGentingPayment",
+      "DataEntryMethod": "None",
+      "Timeout": 20
+    },
+    {
+      "Id": 96,
+      "Name": "Eagle Eye e-Gift Payment",
+      "ServiceRequestType": "EagleEyePayment",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 20
+    },
+    {
+      "Id": 97,
+      "Name": "Eagle Eye e-Gift TopUp",
+      "ServiceRequestType": "EagleEyeTopUp",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 20
+    },
+    {
+      "Id": 98,
+      "Name": "Eagle Eye e-Gift Balance",
+      "ServiceRequestType": "EagleEyeBalance",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 20
+    },
+    {
+      "Id": 99,
+      "Name": "SVS Payment",
+      "ServiceRequestType": "SVSPayment",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 60
+    },
+    {
+      "Id": 100,
+      "Name": "SVS Balance",
+      "ServiceRequestType": "SVSBalance",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 60
+    },
+    {
+      "Id": 101,
+      "Name": "Salesforce",
+      "ServiceRequestType": "Salesforce",
+      "DataEntryMethod": "None",
+      "Timeout": 60
+    },
+    {
+      "Id": 102,
+      "Name": "PourMyBeer Assign",
+      "ServiceRequestType": "RegisterPMBCard",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 30
+    },
+    {
+      "Id": 103,
+      "Name": "PourMyBeer Post Ticket",
+      "ServiceRequestType": "PostTicket",
+      "DataEntryMethod": "None",
+      "Timeout": 30
+    },
+    {
+      "Id": 104,
+      "Name": "Room Post No Room Prompt",
+      "ServiceRequestType": "PostToRoom",
+      "DataEntryMethod": "None",
+      "Timeout": 1215
+    },
+    {
+      "Id": 105,
+      "Name": "PourMyBeer Unassign",
+      "ServiceRequestType": "UnassignPMBCard",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 30
+    },
+    {
+      "Id": 9001,
+      "Name": "pits/soap",
+      "DataEntryMethod": "None",
+      "Timeout": 30
+    }
+  ],
+  "Roles": [
+    {
+      "Id": 11,
+      "Name": "PER Management",
+      "Permissions": [ "AccessIfNotOwner", "AccessParkIfNotOwner", "AllowDelayedOrderSavingWithoutPayment", "AllowServiceChargeRemoval", "ChangeJob", "EnterStandAloneMode", "OrderIfNotOwner", "PayIfNotOwner", "ReverseBillDiscounts", "ReversePayments", "TransferOwnershipToOthers", "ReprintBills" ],
+      "TaskIds": [ 0, 4, 7, 8, 19, 22, 25, 26, 27 ]
+    },
+    {
+      "Id": 12,
+      "Name": "PER Team",
+      "Permissions": [ "AccessIfNotOwner", "AllowDelayedOrderSavingWithoutPayment", "AllowServiceChargeRemoval", "ChangeJob", "OrderIfNotOwner", "PayIfNotOwner", "TransferOwnershipToOthers" ],
+      "TaskIds": [ 0, 5, 8, 20, 26 ]
+    },
+    {
+      "Id": 15,
+      "Name": "Online Order",
+      "Permissions": [ "AccessIfNotOwner", "AccessParkIfNotOwner", "AllowDelayedOrderSavingWithoutPayment", "AllowServiceChargeRemoval", "AutoLogOn", "ChangeJob", "EnterStandAloneMode", "OrderIfNotOwner", "PayIfNotAssignedToDrawer", "PayIfNotOwner", "ReverseBillDiscounts", "ReversePayments", "TransferOwnershipToOthers", "ReprintBills" ],
+      "TaskIds": [ 0, 20, 25, 26, 27, 28 ]
+    },
+    {
+      "Id": 24,
+      "Name": "PER Za Team",
+      "Permissions": [ "AccessIfNotOwner", "AllowDelayedOrderSavingWithoutPayment", "AllowServiceChargeRemoval", "AutoLogOn", "ChangeJob", "OrderIfNotOwner", "PayIfNotOwner", "TransferOwnershipToOthers" ],
+      "TaskIds": [ 0, 24, 27 ]
+    },
+    {
+      "Id": 25,
+      "Name": "PER Za Management",
+      "Permissions": [ "AccessIfNotOwner", "AccessParkIfNotOwner", "AllowDelayedOrderSavingWithoutPayment", "AllowServiceChargeRemoval", "AutoLogOn", "ChangeJob", "EnterStandAloneMode", "OrderIfNotOwner", "PayIfNotOwner", "ReverseBillDiscounts", "ReversePayments", "TransferOwnershipToOthers", "ReprintBills" ],
+      "TaskIds": [ 0, 22, 23, 24, 27 ]
+    },
+    {
+      "Id": 26,
+      "Name": "PER T&A",
+      "TaskIds": [ 0, 27 ]
+    }
+  ]
+}

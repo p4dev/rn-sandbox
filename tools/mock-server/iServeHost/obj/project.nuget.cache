@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k8LPhIO9M1SoG62A7UR33CNWZRRkG688V85y2kswDV2sYWnGPJsCdQgJTBEUuNHXfwXHhy/ruzxX7dy+/EEYlA==",
+  "dgSpecHash": "B9qrrpIF0ffshq+N7WyZjraAazGYdqKkeFKuJ18Rsokg5eIG75JTQGQYIN8HISp34043LedZg9BhVEOUaFO2iA==",
   "success": true,
-  "projectFilePath": "/Users/davidt2/Desktop/iServe/tools/mock-server/iServeHost/iServeHost.csproj",
+  "projectFilePath": "/Users/davidt2/test-menu/tools/mock-server/iServeHost/iServeHost.csproj",
   "expectedPackageFiles": [
     "/Users/davidt2/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
     "/Users/davidt2/.nuget/packages/microsoft.netcore.app.ref/6.0.23/microsoft.netcore.app.ref.6.0.23.nupkg.sha512",

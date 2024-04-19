@@ -2,6 +2,7 @@ using Org.BouncyCastle.Crypto;
 using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.OpenSsl;
 using Org.BouncyCastle.Security;
+using Server.Models;
 using System.Security.Cryptography;
 
 public static class RSAUtility
@@ -41,5 +42,10 @@ public static class RSAUtility
     var rsa = new RSACryptoServiceProvider();
     rsa.ImportParameters(rsaParams);
     return rsa;
+  }
+
+  internal static object ImportPublicKey(RSAPublicKeyData publicKey)
+  {
+    throw new NotImplementedException();
   }
 }

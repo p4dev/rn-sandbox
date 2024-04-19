@@ -89,11 +89,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/davidt2/Desktop/iServe/tools/mock-server/Server/Server.csproj",
+      "projectUniqueName": "/Users/davidt2/test-menu/tools/mock-server/Server/Server.csproj",
       "projectName": "Server",
-      "projectPath": "/Users/davidt2/Desktop/iServe/tools/mock-server/Server/Server.csproj",
+      "projectPath": "/Users/davidt2/test-menu/tools/mock-server/Server/Server.csproj",
       "packagesPath": "/Users/davidt2/.nuget/packages/",
-      "outputPath": "/Users/davidt2/Desktop/iServe/tools/mock-server/Server/obj/",
+      "outputPath": "/Users/davidt2/test-menu/tools/mock-server/Server/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/davidt2/.nuget/NuGet/NuGet.Config"

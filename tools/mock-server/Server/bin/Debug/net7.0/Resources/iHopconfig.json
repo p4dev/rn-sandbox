@@ -1,0 +1,2305 @@
+﻿{
+  "SiteId": 2,
+  "Site": "ZHS Test Site",
+  "SalesAreaId": 273,
+  "SalesArea": "Restaurant",
+  "LastModified": "_LAST_MODIFIED_",
+  "ThemeRevision": "3113",
+  "Conversational": true,
+  "AutoAdvance": true,
+  "Locale": "en-US",
+  "BookingConfig": {
+    "DateRequired": true,
+    "TimeRequired": true,
+    "CoverCountRequired": true,
+    "MinimumDeposit": 0.01
+  },
+  "LocalCardValidationConfig": { "EftRuleId": 13 },
+  "TableDetailsConfig": {
+    "UseCoverCount": true,
+    "PerSeatUseCoverCount": true,
+    "BarUseCustomerName": true
+  },
+  "DelayedOrderingConfig": {
+    "UsePickUpTimeForSalesAndPromotions": false,
+    "ExtraCustomerDetails": [
+      {
+        "Prompt": "Phone#",
+        "Title": "Enter Phone Number",
+        "EntryType": "Numeric",
+        "MinLength": 1,
+        "MaxLength": 34
+      }
+    ]
+  },
+  "UnattendedModeConfig": {
+    "CorrectionMethodRegular": 7,
+    "CorrectionMethodClearAll": 7,
+    "Enabled": true,
+    "PrintJobRetryPeriod": 30
+  },
+  "PaymentMethods": [
+    {
+      "Id": 1,
+      "Name": "Cash",
+      "OverPaymentType": "Change",
+      "CurrencyId": 2,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 2,
+      "Name": "Check",
+      "OverPaymentType": "Tip",
+      "CurrencyId": 2,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 3,
+      "Name": "Ledger",
+      "OverPaymentType": "Disallowed",
+      "CurrencyId": 2,
+      "EftRuleId": 16
+    },
+    {
+      "Id": 4,
+      "Name": "Room",
+      "OverPaymentType": "Tip",
+      "CurrencyId": 2,
+      "EftRuleId": 14
+    },
+    {
+      "Id": 5,
+      "Name": "EFT",
+      "OverPaymentType": "Tip",
+      "CurrencyId": 2,
+      "EftRuleId": 77
+    },
+    {
+      "Id": 11,
+      "Name": "$5.00",
+      "OverPaymentType": "Change",
+      "CurrencyId": 2,
+      "Amount": 5.0,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 12,
+      "Name": "$10.00",
+      "OverPaymentType": "Change",
+      "CurrencyId": 2,
+      "Amount": 10.0,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 13,
+      "Name": "$20.00",
+      "OverPaymentType": "Change",
+      "CurrencyId": 2,
+      "Amount": 20.0,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 14,
+      "Name": "$50.00",
+      "OverPaymentType": "Change",
+      "CurrencyId": 2,
+      "Amount": 50.0,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 15,
+      "Name": "Gift Card",
+      "OverPaymentType": "Tip",
+      "CurrencyId": 2,
+      "EftRuleId": 69
+    },
+    {
+      "Id": 16,
+      "Name": "Account Payment",
+      "OverPaymentType": "Disallowed",
+      "CurrencyId": 2,
+      "EftRuleId": 15
+    },
+    {
+      "Id": 17,
+      "Name": "VISA/MC.",
+      "OverPaymentType": "Tip",
+      "CurrencyId": 2,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 18,
+      "Name": "DISCOVR.",
+      "OverPaymentType": "Tip",
+      "CurrencyId": 2,
+      "CashDrawerMustBeOpened": true,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 19,
+      "Name": "DINERS.",
+      "OverPaymentType": "Tip",
+      "CurrencyId": 2,
+      "CashDrawerMustBeOpened": true,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 20,
+      "Name": "BYOD Payment",
+      "OverPaymentType": "Tip",
+      "CurrencyId": 2,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 21,
+      "Name": "WastePro Voucher",
+      "OverPaymentType": "Tip",
+      "CurrencyId": 2,
+      "CashDrawerMustBeOpened": true,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 22,
+      "Name": "Voucher 2",
+      "OverPaymentType": "Tip",
+      "CurrencyId": 2,
+      "CashDrawerMustBeOpened": true,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 23,
+      "Name": "Voucher 3",
+      "OverPaymentType": "Tip",
+      "CurrencyId": 2,
+      "CashDrawerMustBeOpened": true,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 24,
+      "Name": "Voucher 4",
+      "OverPaymentType": "Tip",
+      "CurrencyId": 2,
+      "CashDrawerMustBeOpened": true,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 25,
+      "Name": "Voucher 5",
+      "OverPaymentType": "Tip",
+      "CurrencyId": 2,
+      "CashDrawerMustBeOpened": true,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 26,
+      "Name": "Voucher 6",
+      "OverPaymentType": "Tip",
+      "CurrencyId": 2,
+      "CashDrawerMustBeOpened": true,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 27,
+      "Name": "Voucher 7",
+      "OverPaymentType": "Tip",
+      "CurrencyId": 2,
+      "CashDrawerMustBeOpened": true,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 28,
+      "Name": "Voucher 8",
+      "OverPaymentType": "Tip",
+      "CurrencyId": 2,
+      "CashDrawerMustBeOpened": true,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 29,
+      "Name": "Voucher 9",
+      "OverPaymentType": "Tip",
+      "CurrencyId": 2,
+      "CashDrawerMustBeOpened": true,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 30,
+      "Name": "Quality Inn",
+      "OverPaymentType": "Disallowed",
+      "CurrencyId": 2,
+      "CashDrawerMustBeOpened": true,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 31,
+      "Name": "Grubhub",
+      "OverPaymentType": "Disallowed",
+      "CurrencyId": 2,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 32,
+      "Name": "Postmate",
+      "OverPaymentType": "Disallowed",
+      "CurrencyId": 2,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 33,
+      "Name": "NextBite",
+      "OverPaymentType": "Tip",
+      "CurrencyId": 2,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 34,
+      "Name": "Bite Squad",
+      "OverPaymentType": "Disallowed",
+      "CurrencyId": 2,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 35,
+      "Name": "Voucher 15",
+      "OverPaymentType": "Tip",
+      "CurrencyId": 2,
+      "CashDrawerMustBeOpened": true,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 36,
+      "Name": "Account",
+      "OverPaymentType": "Tip",
+      "CurrencyId": 2,
+      "CashDrawerMustBeOpened": true,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 37,
+      "Name": "UberEATS",
+      "OverPaymentType": "Disallowed",
+      "CurrencyId": 2,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 38,
+      "Name": "Gift Card..",
+      "OverPaymentType": "Disallowed",
+      "CurrencyId": 2,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 39,
+      "Name": "JetBlue Voucher",
+      "OverPaymentType": "Disallowed",
+      "CurrencyId": 2,
+      "CashDrawerMustBeOpened": true,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 40,
+      "Name": "Web Payment",
+      "OverPaymentType": "Tip",
+      "CurrencyId": 2,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 41,
+      "Name": "DoorDash",
+      "OverPaymentType": "Disallowed",
+      "CurrencyId": 2,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 42,
+      "Name": "ezCater",
+      "OverPaymentType": "Disallowed",
+      "CurrencyId": 2,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 43,
+      "Name": "Cater Nation",
+      "OverPaymentType": "Disallowed",
+      "CurrencyId": 2,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 44,
+      "Name": "Foreign 9",
+      "OverPaymentType": "Change",
+      "CurrencyId": 2,
+      "CashDrawerMustBeOpened": true,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 45,
+      "Name": "Account Charge",
+      "OverPaymentType": "Disallowed",
+      "CurrencyId": 2,
+      "CashDrawerMustBeOpened": true,
+      "EftRuleId": 15
+    },
+    {
+      "Id": 46,
+      "Name": "PIN Debit",
+      "OverPaymentType": "Tip",
+      "CurrencyId": 2,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 47,
+      "Name": "WebOrder",
+      "OverPaymentType": "Tip",
+      "CurrencyId": 2,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 48,
+      "Name": "AMEX.",
+      "OverPaymentType": "Tip",
+      "CurrencyId": 2,
+      "CashDrawerMustBeOpened": true,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 49,
+      "Name": "Manual CC",
+      "OverPaymentType": "Tip",
+      "CurrencyId": 2,
+      "CashDrawerMustBeOpened": true,
+      "EftRuleId": 78
+    },
+    {
+      "Id": 50,
+      "Name": "White Pass",
+      "OverPaymentType": "Change",
+      "CurrencyId": 2,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 51,
+      "Name": "$10.00.",
+      "OverPaymentType": "Change",
+      "CurrencyId": 2,
+      "Amount": 10.0,
+      "CashDrawerMustBeOpened": true,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 52,
+      "Name": "$20.00.",
+      "OverPaymentType": "Change",
+      "CurrencyId": 2,
+      "Amount": 20.0,
+      "CashDrawerMustBeOpened": true,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 53,
+      "Name": "$5.00.",
+      "OverPaymentType": "Change",
+      "CurrencyId": 2,
+      "Amount": 5.0,
+      "CashDrawerMustBeOpened": true,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 54,
+      "Name": "$50.00.",
+      "OverPaymentType": "Change",
+      "CurrencyId": 2,
+      "Amount": 50.0,
+      "CashDrawerMustBeOpened": true,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 55,
+      "Name": "EFT.",
+      "OverPaymentType": "Tip",
+      "CurrencyId": 2,
+      "EftRuleId": 77
+    },
+    {
+      "Id": 56,
+      "Name": "Gift Card.",
+      "OverPaymentType": "Disallowed",
+      "CurrencyId": 2,
+      "CashDrawerMustBeOpened": true,
+      "EftRuleId": 69
+    },
+    {
+      "Id": 57,
+      "Name": "Cash.",
+      "OverPaymentType": "Change",
+      "CurrencyId": 2,
+      "CashDrawerMustBeOpened": true,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 58,
+      "Name": "White Pass.",
+      "OverPaymentType": "Change",
+      "CurrencyId": 2,
+      "CashDrawerMustBeOpened": true,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 59,
+      "Name": "Charge to Account.",
+      "OverPaymentType": "Tip",
+      "CurrencyId": 2,
+      "CashDrawerMustBeOpened": true,
+      "EftRuleId": 15
+    },
+    {
+      "Id": 60,
+      "Name": "Account Payment.",
+      "OverPaymentType": "Disallowed",
+      "CurrencyId": 2,
+      "EftRuleId": 15
+    },
+    {
+      "Id": 61,
+      "Name": "Waitr",
+      "OverPaymentType": "Disallowed",
+      "CurrencyId": 2,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 62,
+      "Name": "Postmate",
+      "OverPaymentType": "Tip",
+      "CurrencyId": 2,
+      "EftRuleId": 0
+    },
+    {
+      "Id": 63,
+      "Name": "Dispatch",
+      "OverPaymentType": "Tip",
+      "CurrencyId": 2,
+      "EftRuleId": 0
+    }
+  ],
+  "Currencies": [
+    {
+      "Id": 1,
+      "Name": "UK Pound",
+      "Symbol": "£",
+      "Rate": 0.9999
+    },
+    {
+      "Id": 2,
+      "Name": "US Dollar",
+      "Symbol": "$",
+      "Rate": 1.0,
+      "IsBase": true
+    },
+    {
+      "Id": 3,
+      "Name": "Euro",
+      "Symbol": "€",
+      "Rate": 1.45
+    },
+    {
+      "Id": 4,
+      "Name": "Japanese Yen",
+      "Symbol": "¥",
+      "Rate": 269.0
+    }
+  ],
+  "CorrectionMethods": [
+    {
+      "Id": 1,
+      "Name": "Void",
+      "CanBeUsed": true,
+      "CorrectionReasons": [ 0, 0 ],
+      "CorrectionType": "SavedOnly"
+    },
+    {
+      "Id": 2,
+      "Name": "Send Back",
+      "CorrectionReasons": [ 0, 0, 0, 0, 0 ],
+      "CorrectionType": "Both"
+    },
+    {
+      "Id": 3,
+      "Name": "Walk out",
+      "CorrectionReasons": [ 0 ],
+      "CorrectionType": "SavedOnly"
+    },
+    {
+      "Id": 4,
+      "Name": "Refund",
+      "CorrectionReasons": [ 0 ],
+      "CorrectionType": "SavedOnly"
+    },
+    {
+      "Id": 5,
+      "Name": "Clear",
+      "CanBeUsed": true,
+      "CorrectionType": "UnsavedOnly"
+    },
+    {
+      "Id": 6,
+      "Name": "Comp Item",
+      "CorrectionReasons": [ 0, 0, 0, 0, 0 ],
+      "CorrectionType": "SavedOnly"
+    },
+    {
+      "Id": 7,
+      "Name": "iOrder\nWeb\nOrder",
+      "CorrectionType": "Both"
+    },
+    {
+      "Id": 100000,
+      "Name": "PreConfirmation",
+      "CorrectionType": "UnsavedOnly"
+    },
+    {
+      "Id": 100001,
+      "Name": "SplittingDiscount",
+      "CorrectionType": "Both"
+    },
+    {
+      "Id": 100002,
+      "Name": "Change\nOrder\nDestination",
+      "CorrectionType": "Both"
+    }
+  ],
+  "CorrectionReasons": [],
+  "Employees": [
+    {
+      "Id": 17,
+      "Username": "#ZHS Brian Laugherty",
+      "FullName": "Brian Laugherty",
+      "DallasId": "3100000117A24401",
+      "Password": "0000",
+      "DefaultRole": 37,
+      "Roles": [ 29, 36, 37, 42, 44 ]
+    },
+    {
+      "Id": 200000000452,
+      "Username": "Z-Online Orders",
+      "FullName": "Z-Online Orders Z-Online Orders",
+      "Password": "0002",
+      "DefaultRole": 33,
+      "Roles": [ 33 ]
+    },
+    {
+      "Id": 200000000485,
+      "Username": "Remote",
+      "FullName": "Remote ZCF",
+      "DefaultRole": 38,
+      "Roles": [ 38 ]
+    },
+    {
+      "Id": 200000000489,
+      "Username": "Gruhub",
+      "FullName": "Gruhub Test",
+      "DallasId": "1212",
+      "DefaultRole": 40,
+      "Roles": [ 40 ]
+    },
+    {
+      "Id": 200000000495,
+      "Username": "iOrder1",
+      "FullName": "iOrder1 PayAtTable1",
+      "DefaultRole": 38,
+      "Roles": [ 38 ]
+    },
+    {
+      "Id": 200000000496,
+      "Username": "iOrder2",
+      "FullName": "iOrder2 PayAtTable2",
+      "DefaultRole": 38,
+      "Roles": [ 38 ]
+    },
+    {
+      "Id": 200000000497,
+      "Username": "iOrder3",
+      "FullName": "iOrder3 PayAtTable3",
+      "DefaultRole": 38,
+      "Roles": [ 38 ]
+    },
+    {
+      "Id": 300002000000,
+      "Username": "Server CB",
+      "FullName": "Server CB Testing",
+      "Password": "8888",
+      "DefaultRole": 21,
+      "Roles": [ 21 ]
+    },
+    {
+      "Id": 300002000001,
+      "Username": "Cook DMO",
+      "FullName": "Cook DMO Cook DMO",
+      "DefaultRole": 3,
+      "Roles": [ 3, 4 ]
+    },
+    {
+      "Id": 300002000003,
+      "Username": "Manager 2",
+      "FullName": "Assistant Mgr. Testing",
+      "Password": "1222",
+      "DefaultRole": 8,
+      "Roles": [ 8 ]
+    },
+    {
+      "Id": 300002000004,
+      "Username": "Manager 3",
+      "FullName": "Mngr Operator Testing",
+      "Password": "1333",
+      "DefaultRole": 12,
+      "Roles": [ 12 ]
+    },
+    {
+      "Id": 300002000011,
+      "Username": "UberEATS",
+      "FullName": "UberEATS Delivery",
+      "Password": "0001",
+      "DefaultRole": 29,
+      "Roles": [ 29 ]
+    },
+    {
+      "Id": 300002000012,
+      "Username": "AD Test",
+      "FullName": "AD Testing",
+      "Password": "1234",
+      "DefaultRole": 9,
+      "Roles": [ 9 ]
+    },
+    {
+      "Id": 300002000013,
+      "Username": "Door",
+      "FullName": "Door Dash",
+      "Password": "0003",
+      "DefaultRole": 34,
+      "Roles": [ 34 ]
+    },
+    {
+      "Id": 300002000014,
+      "Username": "Floating Mgr",
+      "FullName": "Floating Mgr Testing",
+      "Password": "7894",
+      "DefaultRole": 10,
+      "Roles": [ 10 ]
+    },
+    {
+      "Id": 300002000015,
+      "Username": "Hourly Asst.",
+      "FullName": "Shift Mgr. Testing",
+      "Password": "4987",
+      "DefaultRole": 11,
+      "Roles": [ 11 ]
+    },
+    {
+      "Id": 300002000016,
+      "Username": "Senior Asst. Mgr.",
+      "FullName": "Senior Asst. Mgr. Testing",
+      "Password": "5498",
+      "DefaultRole": 27,
+      "Roles": [ 27 ]
+    },
+    {
+      "Id": 700002000004,
+      "Username": "Server 2",
+      "FullName": "Server 2 Testing",
+      "Password": "1212",
+      "DefaultRole": 43,
+      "Roles": [ 1, 21, 43 ]
+    },
+    {
+      "Id": 700002000006,
+      "Username": "Hourly Asst",
+      "FullName": "Hourly Assistant",
+      "Password": "7777",
+      "DefaultRole": 6,
+      "Roles": [ 6, 11 ]
+    },
+    {
+      "Id": 700002000007,
+      "Username": "Zonal",
+      "FullName": "Zonal Zonal",
+      "Password": "2650",
+      "DefaultRole": 1,
+      "Roles": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 21, 22, 27, 29, 30, 31, 32, 33, 34, 36, 37, 38, 39, 40, 42, 43, 44 ]
+    },
+    {
+      "Id": 700002000008,
+      "Username": "Server 1",
+      "FullName": "Server 1 Testing",
+      "Password": "1111",
+      "DefaultRole": 1,
+      "Roles": [ 1, 21 ]
+    },
+    {
+      "Id": 700002000009,
+      "Username": "GM",
+      "FullName": "GM Testing",
+      "Password": "9999",
+      "DefaultRole": 2,
+      "Roles": [ 2 ]
+    }
+  ],
+  "Reasons": [
+    {
+      "Id": 1,
+      "EposName": "Other\nReason",
+      "IsOpenEntry": true
+    },
+    {
+      "Id": 2,
+      "Name": "Cold Food",
+      "EposName": "Cold Food"
+    },
+    {
+      "Id": 3,
+      "Name": "Server Error",
+      "EposName": "Server\nError"
+    },
+    {
+      "Id": 4,
+      "Name": "Long Cook Time",
+      "EposName": "Long Cook\nTime"
+    },
+    {
+      "Id": 5,
+      "Name": "Not Cooked Right",
+      "EposName": "No Cooked\nRight"
+    }
+  ],
+  "PrinterTypes": [
+    {
+      "Id": 2500,
+      "Name": "CBM1000"
+    },
+    {
+      "Id": 2501,
+      "Name": "StarSP342FD"
+    },
+    {
+      "Id": 2502,
+      "Name": "Z412"
+    },
+    {
+      "Id": 2503,
+      "Name": "TM-U210B"
+    },
+    {
+      "Id": 2504,
+      "Name": "Z412 Partial Cut"
+    },
+    {
+      "Id": 2505,
+      "Name": "Kitchen Screen 1"
+    },
+    {
+      "Id": 2506,
+      "Name": "Kitchen Screen 2"
+    },
+    {
+      "Id": 2507,
+      "Name": "Kitchen Screen 3"
+    },
+    {
+      "Id": 2508,
+      "Name": "Kitchen Screen 4"
+    },
+    {
+      "Id": 2509,
+      "Name": "Kitchen Screen 5"
+    },
+    {
+      "Id": 2510,
+      "Name": "Kitchen Screen 6"
+    },
+    {
+      "Id": 2511,
+      "Name": "Kitchen Screen 7"
+    },
+    {
+      "Id": 2512,
+      "Name": "Kitchen Screen 8"
+    },
+    {
+      "Id": 2513,
+      "Name": "Kitchen Screen 9"
+    },
+    {
+      "Id": 2514,
+      "Name": "Star TSP 400"
+    },
+    {
+      "Id": 2515,
+      "Name": "SRP-275"
+    },
+    {
+      "Id": 2516,
+      "Name": "CBM1000 MK1(2400)"
+    },
+    {
+      "Id": 2517,
+      "Name": "Star TSP242 Thermal"
+    },
+    {
+      "Id": 2518,
+      "Name": "Star SP200/SP2000/SP500"
+    },
+    {
+      "Id": 2519,
+      "Name": "Star SP246 2-color"
+    },
+    {
+      "Id": 2520,
+      "Name": "CBM1000 (Pre-set Logo)"
+    },
+    {
+      "Id": 2521,
+      "Name": "Orient BTP-R580/R580II (Serial)"
+    },
+    {
+      "Id": 2522,
+      "Name": "Star TSP700 II"
+    },
+    {
+      "Id": 2523,
+      "Name": "Orient BTP-R580/R580II (Pre-set Logo, Serial)"
+    },
+    {
+      "Id": 2524,
+      "Name": "IBM 4610 - 1NR"
+    },
+    {
+      "Id": 2525,
+      "Name": "IBM 4610 - TF6"
+    },
+    {
+      "Id": 2526,
+      "Name": "Epson TM-U220B"
+    },
+    {
+      "Id": 2534,
+      "Name": "Toshiba TRST-A00"
+    },
+    {
+      "Id": 2535,
+      "Name": "Orient BTP-R580II (IP)"
+    },
+    {
+      "Id": 2536,
+      "Name": "Orient BTP-R580II (Pre-set Logo, IP)"
+    },
+    {
+      "Id": 2537,
+      "Name": "Orient BTP-M300 (IP)"
+    },
+    {
+      "Id": 2538,
+      "Name": "Toshiba TRST-A10"
+    },
+    {
+      "Id": 2539,
+      "Name": "Orient BTP-M300 (Serial)"
+    },
+    {
+      "Id": 2540,
+      "Name": "Star TSP650"
+    },
+    {
+      "Id": 2541,
+      "Name": "Epson TM-U200D"
+    },
+    {
+      "Id": 2542,
+      "Name": "Star SP700"
+    },
+    {
+      "Id": 2543,
+      "Name": "Zebra ZQ510"
+    },
+    {
+      "Id": 2544,
+      "Name": "Zebra ZQ510 (Pre-set Logo)"
+    },
+    {
+      "Id": 2545,
+      "Name": "Toshiba TRST-A10 (Pre-set logo)"
+    },
+    {
+      "Id": 2560,
+      "Name": "Kitchen Screen via IP 1"
+    },
+    {
+      "Id": 2561,
+      "Name": "Kitchen Screen via IP 2"
+    },
+    {
+      "Id": 2562,
+      "Name": "Kitchen Screen via IP 3"
+    },
+    {
+      "Id": 2563,
+      "Name": "Kitchen Screen via IP 4"
+    },
+    {
+      "Id": 2564,
+      "Name": "Kitchen Screen via IP 5"
+    },
+    {
+      "Id": 2565,
+      "Name": "Kitchen Screen via IP 6"
+    },
+    {
+      "Id": 2566,
+      "Name": "Kitchen Screen via IP 7"
+    },
+    {
+      "Id": 2567,
+      "Name": "Kitchen Screen via IP 8"
+    },
+    {
+      "Id": 2568,
+      "Name": "Kitchen Screen via IP 9"
+    },
+    {
+      "Id": 10007,
+      "Name": "ICC&Printer Verifone serial (Vx670)"
+    },
+    {
+      "Id": 10030,
+      "Name": "ICC&Printer Verifone serial via IP (Vx670)"
+    },
+    {
+      "Id": 10031,
+      "Name": "ICC&Printer Verifone wired IP (Vx810 Duet)"
+    },
+    {
+      "Id": 10032,
+      "Name": "ICC&Printer Vx Pay At Table serial via IP (Vx670)"
+    },
+    {
+      "Id": 10035,
+      "Name": "Ocius PED (Integrated Printer)"
+    },
+    {
+      "Id": 10036,
+      "Name": "US EMV IP PED with printer"
+    },
+    {
+      "Id": 32515,
+      "Name": "Zebra QL220"
+    },
+    {
+      "Id": 32516,
+      "Name": "Zebra QL320"
+    },
+    {
+      "Id": 32517,
+      "Name": "CMP10"
+    },
+    {
+      "Id": 32518,
+      "Name": "ICC&Printer Ingenico serial (I7780)"
+    },
+    {
+      "Id": 32519,
+      "Name": "Zebra QL220+"
+    },
+    {
+      "Id": 32520,
+      "Name": "Bixolon SPP-R200"
+    }
+  ],
+  "HeadersAndFooters": [
+    {
+      "Kind": "EftHeader",
+      "Lines": [ "IHOP Test Site #999", "265 Hunt Park Cove", "Longwood, FL 32750" ]
+    },
+    {
+      "Kind": "StandardHeader",
+      "Lines": [ "IHOP 36-999 Lab", "265 Hunt Park Cove", "Longwood, FL 32750" ]
+    },
+    {
+      "Kind": "StandardFooter",
+      "Lines": [ "Thank you for your business!", "", "Call IHOP for all your To-Go needs", "IHOP 'N Go", "555-555-5555" ]
+    },
+    {
+      "Kind": "BillFooter",
+      "Lines": [ "Thank you for your business!", "", "Call IHOP for all your To-Go needs", "IHOP 'N Go", "555-555-5555" ]
+    },
+    {
+      "Kind": "CorrectionTicketFooter",
+      "Lines": [ "Correction Authorized By:", ".", "x", "----------------------------------------", "Sign Here", "" ]
+    },
+    {
+      "Kind": "VatNumber",
+      "Lines": [ "" ]
+    }
+  ],
+  "Divisions": [
+    {
+      "Id": 1,
+      "CanPayOnBarAccount": true,
+      "CanSaveOnBarAccount": true
+    },
+    {
+      "Id": 2,
+      "CanPayOnBarAccount": true,
+      "CanSaveOnBarAccount": true
+    },
+    {
+      "Id": 3,
+      "CanPayOnBarAccount": true,
+      "CanSaveOnBarAccount": true
+    },
+    {
+      "Id": 4,
+      "CanPayOnBarAccount": true,
+      "CanSaveOnBarAccount": true
+    },
+    {
+      "Id": 5,
+      "CanPayOnBarAccount": true,
+      "CanSaveOnBarAccount": true
+    },
+    {
+      "Id": 6,
+      "CanPayOnBarAccount": true,
+      "CanSaveOnBarAccount": true
+    },
+    {
+      "Id": 7,
+      "CanPayOnBarAccount": true,
+      "CanSaveOnBarAccount": true
+    },
+    {
+      "Id": 8,
+      "CanPayOnBarAccount": true,
+      "CanSaveOnBarAccount": true
+    }
+  ],
+  "SubCategories": [
+    {
+      "Id": 1,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 2,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 3,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 4,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 5,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 6,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 7,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 8,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 9,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 10,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 11,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 12,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 13,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 14,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 15,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 16,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 17,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 18,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 19,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 20,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 21,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 22,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 23,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 24,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 25,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 26,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 27,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 28,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 29,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 30,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 31,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 32,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 33,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 34,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 35,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 36,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 37,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 38,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 39,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 40,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 41,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 42,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 43,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 44,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 45,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 46,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 47,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 48,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 49,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 50,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 51,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 52,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 53,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 54,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 55,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 56,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 57,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 58,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 59,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 60,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 61,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 62,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 63,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 64,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 65,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 66,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 67,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 69,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 71,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 72,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 73,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 74,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 75,
+      "HotelDivision": 1
+    },
+    {
+      "Id": 76,
+      "HotelDivision": 1
+    }
+  ],
+  "EftRules": [
+    {
+      "Id": 1,
+      "Name": "SOAP Card Validation",
+      "ServiceRequestType": "PerformCardValidation",
+      "DataEntryMethod": "SwipeOrNumericBarCode",
+      "Timeout": 1215
+    },
+    {
+      "Id": 2,
+      "Name": "ZonalEFT Keyed",
+      "DataEntryMethod": "KeyedPAN",
+      "Timeout": 120
+    },
+    {
+      "Id": 3,
+      "Name": "EFT Keyed",
+      "ServiceRequestType": "PerformCardPayment",
+      "DataEntryMethod": "KeyedPAN",
+      "Timeout": 1215
+    },
+    {
+      "Id": 4,
+      "Name": "EFT ICC",
+      "ServiceRequestType": "PerformCardPayment",
+      "DataEntryMethod": "PINPad",
+      "Timeout": 1215
+    },
+    {
+      "Id": 5,
+      "Name": "Commidea",
+      "DataEntryMethod": "None",
+      "Timeout": 99
+    },
+    {
+      "Id": 6,
+      "Name": "Gift Card",
+      "DataEntryMethod": "SwipeKeyedOrNumericBarCode",
+      "Timeout": 120
+    },
+    {
+      "Id": 7,
+      "Name": "ZonalEFT ICC",
+      "DataEntryMethod": "PINPad",
+      "Timeout": 60
+    },
+    {
+      "Id": 8,
+      "Name": "Old Gift Card (iss)",
+      "DataEntryMethod": "SwipeKeyedOrNumericBarCode",
+      "Timeout": 120
+    },
+    {
+      "Id": 9,
+      "Name": "Old Gift Card (bal)",
+      "DataEntryMethod": "SwipeKeyedOrNumericBarCode",
+      "Timeout": 120
+    },
+    {
+      "Id": 10,
+      "Name": "Stored Value Card",
+      "DataEntryMethod": "SwipeKeyedOrNumericBarCode",
+      "Timeout": 120
+    },
+    {
+      "Id": 11,
+      "Name": "Stored Value Card (iss)",
+      "DataEntryMethod": "SwipeKeyedOrNumericBarCode",
+      "Timeout": 120
+    },
+    {
+      "Id": 12,
+      "Name": "Stored Value Card (bal)",
+      "DataEntryMethod": "SwipeKeyedOrNumericBarCode",
+      "Timeout": 120
+    },
+    {
+      "Id": 13,
+      "Name": "SOAP Pre Auth ICC",
+      "ServiceRequestType": "PerformCardPreAuth",
+      "DataEntryMethod": "PINPad",
+      "Timeout": 1215
+    },
+    {
+      "Id": 14,
+      "Name": "Room Posting",
+      "DataEntryMethod": "Room",
+      "Timeout": 120
+    },
+    {
+      "Id": 15,
+      "Name": "Ledgers",
+      "DataEntryMethod": "None",
+      "Timeout": 20
+    },
+    {
+      "Id": 16,
+      "Name": "Bookings",
+      "DataEntryMethod": "None",
+      "Timeout": 20
+    },
+    {
+      "Id": 17,
+      "Name": "Promo card",
+      "DataEntryMethod": "None",
+      "Timeout": 20
+    },
+    {
+      "Id": 18,
+      "Name": "Gift Card Issue",
+      "ServiceRequestType": "IssueGiftCard",
+      "DataEntryMethod": "SwipeKeyedOrNumericBarCode",
+      "Timeout": 1215
+    },
+    {
+      "Id": 19,
+      "Name": "Gift Card Balance",
+      "ServiceRequestType": "CheckGiftCardBalance",
+      "DataEntryMethod": "SwipeKeyedOrNumericBarCode",
+      "Timeout": 1215
+    },
+    {
+      "Id": 20,
+      "Name": "Gift Card",
+      "ServiceRequestType": "PerformGiftCardPayment",
+      "DataEntryMethod": "SwipeKeyedOrNumericBarCode",
+      "Timeout": 120
+    },
+    {
+      "Id": 21,
+      "Name": "SOAP Post to Room",
+      "ServiceRequestType": "PostToRoom",
+      "DataEntryMethod": "Room",
+      "Timeout": 1215
+    },
+    {
+      "Id": 22,
+      "Name": "SOAP Ocius",
+      "ServiceRequestType": "PerformCardPayment",
+      "DataEntryMethod": "PINPadAlwaysRequired",
+      "Timeout": 1215
+    },
+    {
+      "Id": 23,
+      "Name": "Mobile top-up",
+      "ServiceRequestType": "TopUpMobilePhone",
+      "DataEntryMethod": "None",
+      "Timeout": 1215
+    },
+    {
+      "Id": 24,
+      "Name": "Uncontactable",
+      "DataEntryMethod": "None",
+      "Timeout": 20
+    },
+    {
+      "Id": 25,
+      "Name": "Activity management",
+      "DataEntryMethod": "None",
+      "Timeout": 20
+    },
+    {
+      "Id": 26,
+      "Name": "Pre-booked sales",
+      "DataEntryMethod": "None",
+      "Timeout": 20
+    },
+    {
+      "Id": 27,
+      "Name": "EFT MSR",
+      "ServiceRequestType": "PerformCardPayment",
+      "DataEntryMethod": "SwipeKeyedOrNumericBarCode",
+      "Timeout": 1215
+    },
+    {
+      "Id": 28,
+      "Name": "ZonalEFT MSR",
+      "DataEntryMethod": "SwipeKeyedOrNumericBarCode",
+      "Timeout": 120
+    },
+    {
+      "Id": 29,
+      "Name": "ZonalEFT MSR only",
+      "DataEntryMethod": "SwipeOrNumericBarCode",
+      "Timeout": 120
+    },
+    {
+      "Id": 30,
+      "Name": "SOAP Pre Auth Swiped",
+      "ServiceRequestType": "PerformCardPreAuth",
+      "DataEntryMethod": "SwipeKeyedOrNumericBarCode",
+      "Timeout": 1215
+    },
+    {
+      "Id": 31,
+      "Name": "Checking Loyalty Balance",
+      "ServiceRequestType": "CheckLoyaltyBalance",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 20,
+      "ZcfClmOperationType": "Balance"
+    },
+    {
+      "Id": 32,
+      "Name": "Loyalty Add Points",
+      "ServiceRequestType": "PostTicket",
+      "DataEntryMethod": "None",
+      "Timeout": 20
+    },
+    {
+      "Id": 33,
+      "Name": "Loyalty Pay by Points",
+      "ServiceRequestType": "PayWithLoyaltyCard",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 20
+    },
+    {
+      "Id": 34,
+      "Name": "Redeeming Loyalty Prizes",
+      "ServiceRequestType": "RedeemPrizes",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 20,
+      "ZcfClmOperationType": "Redeem"
+    },
+    {
+      "Id": 35,
+      "Name": "Registering Account",
+      "ServiceRequestType": "RegisterAccount",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 20
+    },
+    {
+      "Id": 36,
+      "Name": "Cancelling Loyalty prizes",
+      "ServiceRequestType": "ReverseCLMRedemptions",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 20
+    },
+    {
+      "Id": 37,
+      "Name": "e-Gift Payment",
+      "ServiceRequestType": "PayByEGift",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 20
+    },
+    {
+      "Id": 38,
+      "Name": "e-Gift TopUp",
+      "ServiceRequestType": "TopUpEGift",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 20
+    },
+    {
+      "Id": 39,
+      "Name": "e-Gift Balance",
+      "ServiceRequestType": "CheckEGiftBalance",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 20
+    },
+    {
+      "Id": 40,
+      "Name": "Redeem TXD voucher",
+      "ServiceRequestType": "RedeemVoucher",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 20
+    },
+    {
+      "Id": 41,
+      "Name": "Cancel All TXD vouchers",
+      "ServiceRequestType": "UnredeemVoucher",
+      "DataEntryMethod": "None",
+      "Timeout": 20
+    },
+    {
+      "Id": 42,
+      "Name": "TXD post ticket",
+      "ServiceRequestType": "PostTicket",
+      "DataEntryMethod": "None",
+      "Timeout": 20
+    },
+    {
+      "Id": 43,
+      "Name": "Card Commerce Gift Payment",
+      "ServiceRequestType": "CardCommerceGiftPayment",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 20
+    },
+    {
+      "Id": 44,
+      "Name": "Card Commerce Gift TopUp",
+      "ServiceRequestType": "CardCommerceGiftTopUp",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 20
+    },
+    {
+      "Id": 45,
+      "Name": "Card Commerce Gift Balance",
+      "ServiceRequestType": "CardCommerceGiftBalance",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 20
+    },
+    {
+      "Id": 46,
+      "Name": "Card Commerce Redeem eCoupon",
+      "ServiceRequestType": "CardCommerceRedeemECoupon",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 20
+    },
+    {
+      "Id": 47,
+      "Name": "Card Commerce Apply Discount",
+      "ServiceRequestType": "CardCommerceApplyDiscount",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 20
+    },
+    {
+      "Id": 48,
+      "Name": "Card Commerce Cancel Discount",
+      "ServiceRequestType": "CardCommerceCancelDiscount",
+      "DataEntryMethod": "None",
+      "Timeout": 20
+    },
+    {
+      "Id": 49,
+      "Name": "EFT CNP",
+      "ServiceRequestType": "PerformCardNotPresentPayment",
+      "DataEntryMethod": "PINPadPreAuthOverride",
+      "Timeout": 1215
+    },
+    {
+      "Id": 50,
+      "Name": "EFT Walk Out",
+      "ServiceRequestType": "PerformCardPayment",
+      "DataEntryMethod": "TransactionNumberOnly",
+      "Timeout": 1215
+    },
+    {
+      "Id": 51,
+      "Name": "EFT ICC",
+      "ServiceRequestType": "PerformCardPayment",
+      "DataEntryMethod": "PINPadPreAuthOverride",
+      "Timeout": 1215
+    },
+    {
+      "Id": 53,
+      "Name": "Stampfeet Post",
+      "ServiceRequestType": "PostStampfeetTicket",
+      "DataEntryMethod": "None",
+      "Timeout": 10
+    },
+    {
+      "Id": 54,
+      "Name": "Ceridian Gift Card Payment",
+      "ServiceRequestType": "CeridianGiftCardPayment",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 135
+    },
+    {
+      "Id": 55,
+      "Name": "Ceridian Gift Card Balance",
+      "ServiceRequestType": "CeridianGiftCardBalance",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 135
+    },
+    {
+      "Id": 56,
+      "Name": "Get Staff Message",
+      "ServiceRequestType": "GetStaffMessage",
+      "DataEntryMethod": "None",
+      "Timeout": 20
+    },
+    {
+      "Id": 57,
+      "Name": "Enable CC Promo",
+      "ServiceRequestType": "CardCommerceEnablePromo",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 20
+    },
+    {
+      "Id": 58,
+      "Name": "Girovend Balance Check",
+      "ServiceRequestType": "PerformEPurseBalanceCheckGirovend",
+      "DataEntryMethod": "None",
+      "Timeout": 20
+    },
+    {
+      "Id": 59,
+      "Name": "Girovend Payment",
+      "ServiceRequestType": "PerformEPursePaymentGirovend",
+      "DataEntryMethod": "None",
+      "Timeout": 20
+    },
+    {
+      "Id": 60,
+      "Name": "eSocket.POS Keyed",
+      "ServiceRequestType": "PerformCardNotPresentPayment",
+      "DataEntryMethod": "PINPad",
+      "Timeout": 1215,
+      "CashbackAllowedOnBarAccounts": true,
+      "CashbackAllowedOnPerSeatTableAccounts": true,
+      "CashbackAllowedOnNonPerSeatTableAccounts": true,
+      "CashbackAllowedOnDriveThruAccounts": true
+    },
+    {
+      "Id": 61,
+      "Name": "eSocket.POS",
+      "ServiceRequestType": "PerformCardPayment",
+      "DataEntryMethod": "None",
+      "Timeout": 1215
+    },
+    {
+      "Id": 62,
+      "Name": "EsVelte e-Gift Payment",
+      "ServiceRequestType": "EsVelteEGiftPayment",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 20
+    },
+    {
+      "Id": 63,
+      "Name": "Esvelte e-Gift TopUp",
+      "ServiceRequestType": "EsVelteEGiftTopUp",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 20
+    },
+    {
+      "Id": 64,
+      "Name": "EsVelte e-Gift Balance",
+      "ServiceRequestType": "EsvelteBalance",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 20
+    },
+    {
+      "Id": 65,
+      "Name": "Loyalty Assign Account",
+      "ServiceRequestType": "AssignAccount",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 20
+    },
+    {
+      "Id": 66,
+      "Name": "Request TXD voucher",
+      "ServiceRequestType": "RequestVoucher",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 20
+    },
+    {
+      "Id": 67,
+      "Name": "Point Gift Issue",
+      "ServiceRequestType": "IssueGiftCard",
+      "DataEntryMethod": "PINPadPreAuthOverride",
+      "Timeout": 1215
+    },
+    {
+      "Id": 68,
+      "Name": "Point Gift Balance",
+      "ServiceRequestType": "CheckGiftCardBalance",
+      "DataEntryMethod": "PINPadPreAuthOverride",
+      "Timeout": 1215
+    },
+    {
+      "Id": 69,
+      "Name": "Point Gift Card",
+      "ServiceRequestType": "PerformGiftCardPayment",
+      "DataEntryMethod": "PINPadPreAuthOverride",
+      "Timeout": 1215
+    },
+    {
+      "Id": 70,
+      "Name": "EFT PED Keyed",
+      "ServiceRequestType": "PerformCardNotPresentPayment",
+      "DataEntryMethod": "PINPadPreAuthOverride",
+      "Timeout": 1215
+    },
+    {
+      "Id": 71,
+      "Name": "SOAP Ocius CNP",
+      "ServiceRequestType": "PerformCardNotPresentPayment",
+      "DataEntryMethod": "PINPadAlwaysRequired",
+      "Timeout": 1215
+    },
+    {
+      "Id": 72,
+      "Name": "Ocius CardHolder Reprint",
+      "ServiceRequestType": "PerformPrintout",
+      "DataEntryMethod": "PINPad",
+      "Timeout": 99
+    },
+    {
+      "Id": 73,
+      "Name": "Ocius Merchant Reprint",
+      "ServiceRequestType": "PerformPrintout",
+      "DataEntryMethod": "PINPad",
+      "Timeout": 99
+    },
+    {
+      "Id": 74,
+      "Name": "Ocius Sys Info Print",
+      "ServiceRequestType": "PerformPrintout",
+      "DataEntryMethod": "SiteWidePINPads",
+      "Timeout": 99
+    },
+    {
+      "Id": 75,
+      "Name": "SOAP Ocius Token",
+      "ServiceRequestType": "PerformCardNotPresentPayment",
+      "DataEntryMethod": "PINPadAndToken",
+      "Timeout": 1215
+    },
+    {
+      "Id": 76,
+      "Name": "TranCloud Standalone Refund",
+      "ServiceRequestType": "PerformStandaloneCardPayment",
+      "DataEntryMethod": "PINPad",
+      "Timeout": 99
+    },
+    {
+      "Id": 77,
+      "Name": "TranCloud EFT ICC",
+      "ServiceRequestType": "PerformCardPayment",
+      "DataEntryMethod": "PINPad",
+      "Timeout": 1215
+    },
+    {
+      "Id": 78,
+      "Name": "TranCloud EFT PED Keyed",
+      "ServiceRequestType": "PerformCardNotPresentPayment",
+      "DataEntryMethod": "PINPadPreAuthOverride",
+      "Timeout": 1215
+    },
+    {
+      "Id": 79,
+      "Name": "Create Booking",
+      "ServiceRequestType": "CreateBooking",
+      "DataEntryMethod": "None",
+      "Timeout": 20
+    },
+    {
+      "Id": 80,
+      "Name": "Room Enquiry",
+      "ServiceRequestType": "RoomEnquiry",
+      "DataEntryMethod": "None",
+      "Timeout": 20
+    },
+    {
+      "Id": 81,
+      "Name": "Cancel Single TXD Voucher",
+      "ServiceRequestType": "UnredeemSingleVoucher",
+      "DataEntryMethod": "None",
+      "Timeout": 20
+    },
+    {
+      "Id": 83,
+      "Name": "Intercard Balance",
+      "ServiceRequestType": "IntercardBalanceInquiry",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 30
+    },
+    {
+      "Id": 84,
+      "Name": "Intercard Payment",
+      "ServiceRequestType": "IntercardPay",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 30
+    },
+    {
+      "Id": 85,
+      "Name": "Intercard Credit",
+      "ServiceRequestType": "IntercardCreditAccount",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 30
+    },
+    {
+      "Id": 86,
+      "Name": "Intercard Void Credit",
+      "ServiceRequestType": "IntercardReverseCredit",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 30
+    },
+    {
+      "Id": 87,
+      "Name": "Intercard Refund Card",
+      "ServiceRequestType": "IntercardRefundCard",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 30
+    },
+    {
+      "Id": 88,
+      "Name": "iCoupon Redeem",
+      "ServiceRequestType": "ICouponRedeem",
+      "DataEntryMethod": "ExtraLargeBarCode",
+      "Timeout": 20
+    },
+    {
+      "Id": 89,
+      "Name": "iCoupon Void",
+      "ServiceRequestType": "ICouponVoid",
+      "DataEntryMethod": "ExtraLargeBarCode",
+      "Timeout": 20
+    },
+    {
+      "Id": 90,
+      "Name": "iCoupon PostTicket",
+      "ServiceRequestType": "PostTicket",
+      "DataEntryMethod": "None",
+      "Timeout": 20
+    },
+    {
+      "Id": 91,
+      "Name": "Wizard",
+      "ServiceRequestType": "Wizard",
+      "DataEntryMethod": "None",
+      "Timeout": 20
+    },
+    {
+      "Id": 92,
+      "Name": "DRS Card Swipe",
+      "ServiceRequestType": "BeginGentingCardSwipe",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 60
+    },
+    {
+      "Id": 93,
+      "Name": "DRS Manual Search",
+      "ServiceRequestType": "BeginGentingManualSearch",
+      "DataEntryMethod": "None",
+      "Timeout": 60
+    },
+    {
+      "Id": 94,
+      "Name": "Complete DRS Operation",
+      "ServiceRequestType": "CompleteGenting",
+      "DataEntryMethod": "None",
+      "Timeout": 60
+    },
+    {
+      "Id": 95,
+      "Name": "DRS Reverse Payment",
+      "ServiceRequestType": "CancelGentingPayment",
+      "DataEntryMethod": "None",
+      "Timeout": 20
+    },
+    {
+      "Id": 96,
+      "Name": "Eagle Eye e-Gift Payment",
+      "ServiceRequestType": "EagleEyePayment",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 20
+    },
+    {
+      "Id": 97,
+      "Name": "Eagle Eye e-Gift TopUp",
+      "ServiceRequestType": "EagleEyeTopUp",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 20
+    },
+    {
+      "Id": 98,
+      "Name": "Eagle Eye e-Gift Balance",
+      "ServiceRequestType": "EagleEyeBalance",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 20
+    },
+    {
+      "Id": 99,
+      "Name": "SVS Payment",
+      "ServiceRequestType": "SVSPayment",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 60
+    },
+    {
+      "Id": 100,
+      "Name": "SVS Balance",
+      "ServiceRequestType": "SVSBalance",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 60
+    },
+    {
+      "Id": 101,
+      "Name": "Salesforce",
+      "ServiceRequestType": "Salesforce",
+      "DataEntryMethod": "None",
+      "Timeout": 60
+    },
+    {
+      "Id": 102,
+      "Name": "PourMyBeer Assign",
+      "ServiceRequestType": "RegisterPMBCard",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 30
+    },
+    {
+      "Id": 103,
+      "Name": "PourMyBeer Post Ticket",
+      "ServiceRequestType": "PostTicket",
+      "DataEntryMethod": "None",
+      "Timeout": 30
+    },
+    {
+      "Id": 104,
+      "Name": "Room Post No Room Prompt",
+      "ServiceRequestType": "PostToRoom",
+      "DataEntryMethod": "None",
+      "Timeout": 1215
+    },
+    {
+      "Id": 105,
+      "Name": "PourMyBeer Unassign",
+      "ServiceRequestType": "UnassignPMBCard",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 30
+    },
+    {
+      "Id": 106,
+      "Name": "Punchh Redeem",
+      "ServiceRequestType": "Punchh.RedeemVoucher",
+      "DataEntryMethod": "SwipeKeyedOrBarCode",
+      "Timeout": 60
+    },
+    {
+      "Id": 107,
+      "Name": "Punchh Unredeem",
+      "ServiceRequestType": "Punchh.UnredeemVoucher",
+      "DataEntryMethod": "None",
+      "Timeout": 60
+    },
+    {
+      "Id": 9001,
+      "Name": "pits/soap",
+      "DataEntryMethod": "None",
+      "Timeout": 30
+    }
+  ],
+  "Roles": [
+    {
+      "Id": 1,
+      "Name": "Server",
+      "Permissions": [ "AllowServiceChargeRemoval", "ReprintBills" ],
+      "TaskIds": [ 0, 13, 14, 18, 20, 21, 24, 32, 38, 41, 43, 45, 46, 48, 51, 75, 114, 115, 117, 118, 122, 128, 130, 132, 137, 143, 144, 145, 153, 154, 155, 156, 157, 158, 162, 167, 168, 172, 177, 178, 179, 180, 182, 183, 185, 186, 500000000, 500000003, 500000004, 500000005, 500000006, 500000007 ]
+    },
+    {
+      "Id": 2,
+      "Name": "General Mngr",
+      "Permissions": [ "AccessIfNotOwner", "AccessParkIfNotOwner", "AllowServiceChargeRemoval", "ChangeJob", "OrderIfNotOwner", "PayIfNotAssignedToDrawer", "PayIfNotOwner", "ReverseBillDiscounts", "ReversePayments", "ReprintBills" ],
+      "TaskIds": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 18, 20, 21, 22, 23, 25, 31, 32, 34, 36, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 75, 108, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 139, 140, 143, 144, 145, 146, 147, 148, 149, 150, 153, 154, 155, 156, 157, 158, 162, 163, 164, 165, 166, 167, 168, 170, 171, 172, 177, 178, 179, 180, 182, 183, 185, 186, 500000000, 500000001, 500000002, 500000004, 500000005, 500000006, 500000007 ]
+    },
+    {
+      "Id": 3,
+      "Name": "Cook",
+      "Permissions": [ "AllowServiceChargeRemoval", "ReprintBills" ],
+      "TaskIds": [ 0, 17, 24, 36, 104, 137, 153, 154, 159, 162, 168, 177, 178, 179, 180, 182, 185, 186, 500000000, 500000003, 500000004, 500000005, 500000006, 500000007 ]
+    },
+    {
+      "Id": 4,
+      "Name": "DMO",
+      "Permissions": [ "AllowServiceChargeRemoval", "ReprintBills" ],
+      "TaskIds": [ 0, 12, 17, 24, 34, 137, 153, 154, 159, 162, 168, 177, 178, 179, 180, 182, 185, 186, 500000000, 500000003, 500000004, 500000005, 500000006, 500000007 ]
+    },
+    {
+      "Id": 5,
+      "Name": "Host Cashier",
+      "Permissions": [ "AllowServiceChargeRemoval", "ReprintBills" ],
+      "TaskIds": [ 0, 12, 18, 20, 21, 43, 44, 48, 51, 52, 55, 75, 115, 117, 118, 122, 128, 137, 153, 154, 156, 157, 158, 162, 168, 177, 178, 179, 180, 182, 183, 185, 186, 500000000, 500000003, 500000004, 500000005, 500000006, 500000007 ]
+    },
+    {
+      "Id": 6,
+      "Name": "Prep Cook",
+      "Permissions": [ "AllowServiceChargeRemoval", "ReprintBills" ],
+      "TaskIds": [ 0, 17, 21, 23, 24, 137, 153, 154, 156, 157, 158, 162, 168, 177, 178, 179, 180, 182, 185, 186, 500000000, 500000003, 500000004, 500000005, 500000006, 500000007 ]
+    },
+    {
+      "Id": 7,
+      "Name": "Server Trainee",
+      "Permissions": [ "AllowServiceChargeRemoval", "ReprintBills" ],
+      "TaskIds": [ 0, 2, 13, 18, 20, 21, 31, 32, 41, 42, 43, 44, 48, 51, 115, 116, 117, 119, 122, 124, 128, 132, 136, 137, 140, 144, 145, 148, 153, 154, 156, 157, 158, 162, 165, 166, 168, 171, 177, 178, 179, 180, 182, 183, 185, 186, 500000000, 500000003, 500000004, 500000005, 500000006, 500000007 ]
+    },
+    {
+      "Id": 8,
+      "Name": "Asst Manager",
+      "Permissions": [ "AccessIfNotOwner", "AccessParkIfNotOwner", "AllowServiceChargeRemoval", "ChangeJob", "OrderIfNotOwner", "PayIfNotAssignedToDrawer", "PayIfNotOwner", "ReverseBillDiscounts", "ReversePayments", "ReprintBills" ],
+      "TaskIds": [ 0, 2, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 18, 20, 21, 22, 23, 31, 32, 34, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 55, 56, 57, 59, 60, 61, 63, 64, 75, 104, 108, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 139, 140, 143, 144, 145, 146, 147, 148, 149, 153, 154, 155, 156, 157, 158, 162, 163, 164, 165, 166, 167, 168, 170, 171, 172, 177, 178, 179, 180, 182, 183, 185, 186, 500000000, 500000001, 500000002, 500000004, 500000005, 500000006, 500000007 ]
+    },
+    {
+      "Id": 9,
+      "Name": "Coordinator",
+      "Permissions": [ "AccessIfNotOwner", "AccessParkIfNotOwner", "AllowServiceChargeRemoval", "ChangeJob", "OrderIfNotOwner", "PayIfNotAssignedToDrawer", "PayIfNotOwner", "ReverseBillDiscounts", "ReversePayments", "ReprintBills" ],
+      "TaskIds": [ 0, 2, 3, 4, 6, 7, 8, 12, 13, 14, 18, 20, 21, 22, 23, 25, 31, 32, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 57, 58, 59, 60, 61, 63, 64, 75, 104, 108, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 124, 127, 128, 129, 130, 131, 132, 133, 134, 136, 137, 139, 140, 143, 144, 145, 146, 147, 148, 149, 153, 154, 155, 156, 157, 158, 162, 164, 165, 166, 167, 168, 170, 171, 172, 177, 178, 179, 180, 182, 183, 185, 186, 500000000, 500000001, 500000002, 500000004, 500000005, 500000006, 500000007 ]
+    },
+    {
+      "Id": 10,
+      "Name": "Floating Mngr",
+      "Permissions": [ "AccessIfNotOwner", "AccessParkIfNotOwner", "AllowServiceChargeRemoval", "ChangeJob", "OrderIfNotOwner", "PayIfNotAssignedToDrawer", "PayIfNotOwner", "ReverseBillDiscounts", "ReversePayments", "ReprintBills" ],
+      "TaskIds": [ 0, 2, 3, 4, 6, 7, 8, 10, 12, 13, 14, 18, 20, 21, 23, 25, 31, 32, 34, 36, 37, 38, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 63, 64, 75, 104, 108, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 124, 126, 127, 128, 129, 130, 131, 132, 133, 134, 137, 139, 143, 144, 145, 148, 149, 153, 154, 155, 156, 157, 158, 162, 164, 165, 166, 167, 168, 170, 171, 172, 177, 178, 179, 180, 182, 183, 185, 186, 500000000, 500000001, 500000002, 500000004, 500000005, 500000006, 500000007 ]
+    },
+    {
+      "Id": 11,
+      "Name": "Shift Manager",
+      "Permissions": [ "AccessIfNotOwner", "AccessParkIfNotOwner", "AllowServiceChargeRemoval", "ChangeJob", "OrderIfNotOwner", "PayIfNotAssignedToDrawer", "PayIfNotOwner", "ReverseBillDiscounts", "ReversePayments", "ReprintBills" ],
+      "TaskIds": [ 0, 2, 4, 8, 13, 14, 18, 20, 21, 23, 25, 34, 39, 41, 42, 43, 44, 50, 51, 53, 54, 55, 56, 58, 59, 60, 61, 63, 64, 104, 113, 114, 115, 116, 117, 118, 119, 120, 122, 126, 127, 128, 129, 133, 136, 137, 140, 144, 145, 148, 149, 153, 154, 155, 156, 157, 158, 162, 163, 164, 165, 166, 167, 168, 170, 171, 172, 177, 178, 179, 180, 182, 183, 185, 186, 500000000, 500000002, 500000004, 500000005, 500000006, 500000007 ]
+    },
+    {
+      "Id": 12,
+      "Name": "Mngr Operator",
+      "Permissions": [ "AccessIfNotOwner", "AccessParkIfNotOwner", "AllowServiceChargeRemoval", "ChangeJob", "OrderIfNotOwner", "PayIfNotAssignedToDrawer", "PayIfNotOwner", "ReverseBillDiscounts", "ReversePayments", "ReprintBills" ],
+      "TaskIds": [ 0, 2, 3, 4, 6, 8, 9, 10, 12, 13, 14, 18, 20, 21, 22, 23, 25, 31, 32, 34, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 57, 58, 59, 60, 61, 62, 63, 64, 75, 104, 108, 112, 114, 115, 116, 118, 119, 120, 121, 122, 123, 124, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 137, 139, 140, 143, 144, 145, 146, 147, 148, 150, 153, 154, 155, 156, 157, 158, 162, 164, 165, 166, 167, 168, 170, 171, 172, 177, 178, 179, 180, 182, 183, 185, 186, 500000000, 500000001, 500000002, 500000004, 500000005, 500000006, 500000007 ]
+    },
+    {
+      "Id": 13,
+      "Name": "Vacation Hourly",
+      "Permissions": [ "AllowServiceChargeRemoval", "PayIfNotAssignedToDrawer", "ReprintBills" ],
+      "TaskIds": [ 0, 8, 18, 21, 51, 58, 59, 108, 122, 137, 153, 154, 156, 157, 158, 162, 168, 177, 178, 179, 180, 182, 183, 185, 186, 500000000, 500000005, 500000006, 500000007 ]
+    },
+    {
+      "Id": 14,
+      "Name": "Vacation Salary",
+      "Permissions": [ "AllowServiceChargeRemoval", "PayIfNotAssignedToDrawer", "ReprintBills" ],
+      "TaskIds": [ 0, 8, 18, 21, 51, 122, 137, 153, 154, 156, 157, 158, 162, 168, 177, 178, 179, 180, 182, 183, 185, 186, 500000000, 500000005, 500000006, 500000007 ]
+    },
+    {
+      "Id": 15,
+      "Name": "Do not USE",
+      "Permissions": [ "AllowServiceChargeRemoval", "PayIfNotAssignedToDrawer", "ReprintBills" ],
+      "TaskIds": [ 0, 11, 18, 21, 51, 61, 122, 137, 153, 154, 162, 168, 177, 178, 179, 182, 183, 185, 500000000, 500000005, 500000006, 500000007 ]
+    },
+    {
+      "Id": 21,
+      "Name": "Server CB",
+      "Permissions": [ "AccessIfNotOwner", "AllowServiceChargeRemoval", "OrderIfNotOwner", "PayIfNotAssignedToDrawer", "PayIfNotOwner", "ReprintBills" ],
+      "TaskIds": [ 0, 40, 41, 42, 43, 44, 45, 46, 47, 48, 51, 57, 60, 61, 63, 75, 114, 116, 117, 118, 122, 128, 129, 131, 132, 133, 137, 143, 145, 147, 148, 153, 154, 155, 156, 157, 158, 162, 167, 168, 172, 177, 178, 179, 180, 182, 183, 185, 186, 500000000, 500000003, 500000004, 500000005, 500000006, 500000007 ]
+    },
+    {
+      "Id": 22,
+      "Name": "Cashier CB",
+      "Permissions": [ "AccessIfNotOwner", "AllowServiceChargeRemoval", "OrderIfNotOwner", "PayIfNotAssignedToDrawer", "PayIfNotOwner", "ReprintBills" ],
+      "TaskIds": [ 0, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 60, 75, 113, 114, 115, 117, 118, 122, 127, 128, 131, 132, 133, 134, 135, 137, 143, 145, 147, 148, 153, 154, 155, 156, 157, 158, 162, 167, 168, 172, 177, 178, 179, 180, 182, 183, 185, 186, 500000000, 500000003, 500000004, 500000005, 500000006, 500000007 ]
+    },
+    {
+      "Id": 27,
+      "Name": "Senior Assistant Mgr",
+      "Permissions": [ "AccessIfNotOwner", "AccessParkIfNotOwner", "AllowServiceChargeRemoval", "ChangeJob", "OrderIfNotOwner", "PayIfNotAssignedToDrawer", "PayIfNotOwner", "ReverseBillDiscounts", "ReversePayments", "ReprintBills" ],
+      "TaskIds": [ 0, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 140, 143, 144, 145, 146, 147, 148, 149, 150, 153, 155, 156, 157, 158, 162, 164, 165, 166, 167, 168, 170, 171, 172, 177, 178, 179, 180, 182, 183, 185, 186, 500000002, 500000004, 500000005, 500000006 ]
+    },
+    {
+      "Id": 29,
+      "Name": "UberEATS",
+      "Permissions": [ "PayIfNotAssignedToDrawer", "ReprintBills" ],
+      "TaskIds": [ 0, 138, 139, 142, 151, 153, 156, 157, 164, 165, 166, 167, 168, 173, 175, 176, 180, 181, 182, 185, 186, 500000005, 500000006 ]
+    },
+    {
+      "Id": 30,
+      "Name": "KDS 1",
+      "Permissions": [ "ChangeJob" ],
+      "TaskIds": [ 0, 153, 156, 500000005, 500000006 ]
+    },
+    {
+      "Id": 31,
+      "Name": "KDS 2",
+      "Permissions": [ "ChangeJob" ],
+      "TaskIds": [ 0, 153, 156, 500000005, 500000006 ]
+    },
+    {
+      "Id": 32,
+      "Name": "KDS 4",
+      "Permissions": [ "ChangeJob" ],
+      "TaskIds": [ 0, 153, 156, 500000005, 500000006 ]
+    },
+    {
+      "Id": 33,
+      "Name": "Online",
+      "Permissions": [ "PayIfNotAssignedToDrawer", "ReprintBills" ],
+      "TaskIds": [ 0, 141, 142, 151, 156, 157, 164, 165, 166, 167, 168, 170, 171, 172, 173, 175, 176, 179, 180, 181, 182, 185, 186, 187, 500000005, 500000006 ]
+    },
+    {
+      "Id": 34,
+      "Name": "DoorDash",
+      "Permissions": [ "PayIfNotAssignedToDrawer", "ReprintBills" ],
+      "TaskIds": [ 0, 151, 152, 153, 156, 157, 164, 165, 166, 167, 168, 173, 175, 176, 179, 180, 181, 182, 185, 186, 500000005, 500000006 ]
+    },
+    {
+      "Id": 36,
+      "Name": "ezCater",
+      "Permissions": [ "PayIfNotAssignedToDrawer", "ReprintBills" ],
+      "TaskIds": [ 0, 161, 166, 175, 179, 180, 182, 185, 186, 500000005, 500000006 ]
+    },
+    {
+      "Id": 37,
+      "Name": "Cater Nation",
+      "Permissions": [ "PayIfNotAssignedToDrawer", "ReprintBills" ],
+      "TaskIds": [ 0, 160, 175, 179, 180, 181, 182, 185, 186, 500000005, 500000006 ]
+    },
+    {
+      "Id": 38,
+      "Name": "Unattended",
+      "Permissions": [ "ReprintBills" ],
+      "TaskIds": [ 0, 500000005, 500000006 ]
+    },
+    {
+      "Id": 39,
+      "Name": "Cater To-Go",
+      "Permissions": [ "PayIfNotAssignedToDrawer", "ReprintBills" ],
+      "TaskIds": [ 0, 162, 175, 177, 179, 180, 181, 182, 185, 186, 500000005, 500000006 ]
+    },
+    {
+      "Id": 40,
+      "Name": "Grubhub",
+      "Permissions": [ "PayIfNotAssignedToDrawer", "ReprintBills" ],
+      "TaskIds": [ 0, 169, 173, 175, 176, 179, 180, 181, 182, 185, 186, 500000005, 500000006 ]
+    },
+    {
+      "Id": 42,
+      "Name": "Postmates",
+      "Permissions": [ "PayIfNotOwner", "ReprintBills" ],
+      "TaskIds": [ 0, 174, 175, 176, 179, 180, 181, 182, 185, 186, 500000005, 500000006 ]
+    },
+    {
+      "Id": 43,
+      "Name": "Carryout Specialist",
+      "Permissions": [ "AllowServiceChargeRemoval", "ReprintBills" ],
+      "TaskIds": [ 0, 177, 178, 179, 180, 181, 182, 183, 185, 186, 500000006, 500000007 ]
+    },
+    {
+      "Id": 44,
+      "Name": "Dispatch",
+      "Permissions": [ "PayIfNotAssignedToDrawer", "ReprintBills" ],
+      "TaskIds": [ 0, 184, 185, 186, 187 ]
+    }
+  ]
+}

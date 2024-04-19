@@ -1,0 +1,43 @@
+﻿{
+  "SearchResults": {
+    "MatchCount": {
+      "MatchesFound": "5"
+    },
+    "MatchData": [
+      {
+        "Name": "\\(^o^)/",
+        "Reference": "GHOST",
+        "Code": "5"
+      },
+      {
+        "Name": "GhostOnHold",
+        "Reference": "LEDGERACCREF2",
+        "Code": "6"
+      },
+      {
+        "Name": "GhostSmallLimit",
+        "Reference": "LEDGERACCREF1",
+        "Code": "7"
+      },
+      {
+        "Name": "ROOM 01",
+        "Reference": "",
+        "Code": "3"
+      },
+      {
+        "Name": "ROOM 02",
+        "Reference": "",
+        "Code": "4"
+      }
+    ]
+  },
+  "Common": {
+    "EmployeeID": "300046000000",
+    "ResponseCode": "255",
+    "ProgramVersion": "3.21.0.56373",
+    "DataVersion": "0",
+    "WCFServiceVersion": "3.22.0.224",
+    "TerminalID": "606",
+    "Mac": "9D671C1F7FD50F12BCE4ED71B4AB450B5C4D8D35"
+  }
+}

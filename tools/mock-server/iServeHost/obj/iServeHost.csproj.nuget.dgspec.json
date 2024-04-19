@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/davidt2/Desktop/iServe/tools/mock-server/iServeHost/iServeHost.csproj": {}
+    "/Users/davidt2/test-menu/tools/mock-server/iServeHost/iServeHost.csproj": {}
   },
   "projects": {
-    "/Users/davidt2/Desktop/iServe/tools/mock-server/iServeHost/iServeHost.csproj": {
+    "/Users/davidt2/test-menu/tools/mock-server/iServeHost/iServeHost.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/davidt2/Desktop/iServe/tools/mock-server/iServeHost/iServeHost.csproj",
+        "projectUniqueName": "/Users/davidt2/test-menu/tools/mock-server/iServeHost/iServeHost.csproj",
         "projectName": "iServeHost",
-        "projectPath": "/Users/davidt2/Desktop/iServe/tools/mock-server/iServeHost/iServeHost.csproj",
+        "projectPath": "/Users/davidt2/test-menu/tools/mock-server/iServeHost/iServeHost.csproj",
         "packagesPath": "/Users/davidt2/.nuget/packages/",
-        "outputPath": "/Users/davidt2/Desktop/iServe/tools/mock-server/iServeHost/obj/",
+        "outputPath": "/Users/davidt2/test-menu/tools/mock-server/iServeHost/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/davidt2/.nuget/NuGet/NuGet.Config"

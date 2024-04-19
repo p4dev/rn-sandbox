@@ -4,6 +4,6 @@ namespace Server.Models
   public class RSAPublicKeyRequest
   {
     [JsonPropertyName("RSAPublicKey")]
-    public RSAPublicKeyData PublicKey { get; set; }
+    public RSAPublicKeyData? PublicKey { get; set; }
   }
 }

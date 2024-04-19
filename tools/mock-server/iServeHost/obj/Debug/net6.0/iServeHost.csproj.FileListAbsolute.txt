@@ -1,0 +1,17 @@
+/Users/davidt2/test-menu/tools/mock-server/iServeHost/bin/Debug/net6.0/iServeHost
+/Users/davidt2/test-menu/tools/mock-server/iServeHost/bin/Debug/net6.0/iServeHost.deps.json
+/Users/davidt2/test-menu/tools/mock-server/iServeHost/bin/Debug/net6.0/iServeHost.runtimeconfig.json
+/Users/davidt2/test-menu/tools/mock-server/iServeHost/bin/Debug/net6.0/iServeHost.dll
+/Users/davidt2/test-menu/tools/mock-server/iServeHost/bin/Debug/net6.0/iServeHost.pdb
+/Users/davidt2/test-menu/tools/mock-server/iServeHost/bin/Debug/net6.0/Newtonsoft.Json.dll
+/Users/davidt2/test-menu/tools/mock-server/iServeHost/obj/Debug/net6.0/iServeHost.csproj.AssemblyReference.cache
+/Users/davidt2/test-menu/tools/mock-server/iServeHost/obj/Debug/net6.0/iServeHost.GeneratedMSBuildEditorConfig.editorconfig
+/Users/davidt2/test-menu/tools/mock-server/iServeHost/obj/Debug/net6.0/iServeHost.AssemblyInfoInputs.cache
+/Users/davidt2/test-menu/tools/mock-server/iServeHost/obj/Debug/net6.0/iServeHost.AssemblyInfo.cs
+/Users/davidt2/test-menu/tools/mock-server/iServeHost/obj/Debug/net6.0/iServeHost.csproj.CoreCompileInputs.cache
+/Users/davidt2/test-menu/tools/mock-server/iServeHost/obj/Debug/net6.0/iServeHost.csproj.CopyComplete
+/Users/davidt2/test-menu/tools/mock-server/iServeHost/obj/Debug/net6.0/iServeHost.dll
+/Users/davidt2/test-menu/tools/mock-server/iServeHost/obj/Debug/net6.0/refint/iServeHost.dll
+/Users/davidt2/test-menu/tools/mock-server/iServeHost/obj/Debug/net6.0/iServeHost.pdb
+/Users/davidt2/test-menu/tools/mock-server/iServeHost/obj/Debug/net6.0/iServeHost.genruntimeconfig.cache
+/Users/davidt2/test-menu/tools/mock-server/iServeHost/obj/Debug/net6.0/ref/iServeHost.dll

@@ -95,7 +95,7 @@ namespace Server
                 try
                 {
                     // Import the PEM-encoded public key using the RSAUtility
-                    using var rsa = RSAUtility.ImportPublicKey(request.PublicKey);
+                    using var rsa = RSAUtility.ImportPublicKey(request.PublicKey.N);
 
                     var dataToEncrypt = Encoding.UTF8.GetBytes("batman"); // secure data to encrypt
                     var encryptedData = rsa.Encrypt(dataToEncrypt, RSAEncryptionPadding.Pkcs1);
