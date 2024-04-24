@@ -1,0 +1,21 @@
+﻿{
+  "Name": "iServe xam3 Config",
+  "Revision": 67,
+  "Settings": {
+    "EnableTableOnlyWorkflow": false,
+    "EnableCashPayments": true,
+    "EnableNonCashPayments": true,
+    "EnableVouchering": true,
+    "ServiceChargeAddition": true,
+    "ServiceChargeRemoval": true,
+    "EnableAztecThemeDesign": false,
+    "EnableTablePlan": true,
+    "EnableBarcodeLogin": true,
+    "AllowScanAfterBillPrint": true,
+    "EnableIzoneLoyalty": true,
+    "EnableLiveResTables": true,
+    "EnablePaymentsPriorToBillPrint": true,
+    "SalesLedgerAlternativeSearchScreen": true,
+    "SalesLedgerSuppressSignaturePrint": true
+  }
+}
